@@ -78,6 +78,7 @@ DELAYS = {
     'www.denpa.pub': (10, 30),
     'play.google.com': (10, 30),
     'labs.j-novel.club': (10, 30),
+    'mediaocd.com': (1, 3),
     'udonentertainment.com': (10, 30),
     'www.udonentertainment.com': (10, 30),
     'store.udonentertainment.com': (10, 30),

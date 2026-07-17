@@ -28,6 +28,8 @@ PROCESSED = {
     'denpa.pub': _default,
     'j-novel.club': _default,
     'kodansha.us': _default,
+    'mediaocd.com': _default,
+    'www.mediaocd.com': _default,
     'www.onepeacebooks.com': _default,
     'www.penguinrandomhouse.com': prh,
     'sevenseasentertainment.com': _default,
