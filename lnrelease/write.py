@@ -16,13 +16,15 @@ TAXONOMY = '''
 
 ## Taxonomy
 
-**Origin** is the *creator's country* — `JP` / `KR` / `CN` / `other`. The hosting platform is irrelevant: WEBTOON, for instance, publishes both Korean and Western works.
+**Format** is the disc type — `Blu-ray` / `DVD` / `4K UHD` (`Multi` = a release spanning more than one).
 
-**Category** is reader vocabulary, not format:
-- `manga` / `manhwa` / `manhua` — Japanese / Korean / Chinese works, **including webtoon-native ones in print** (e.g. *Solo Leveling*, *Tower of God* → `KR` / `manhwa`).
-- `webtoon` — **non-Asian** webtoon-native works in print (e.g. *Lore Olympus* → `other` / `webtoon`).
-- `comic` — Western print comics (e.g. Udon's *Street Fighter*).
-- `artbook` — art books (tracked separately).
+**Category** is the release type — `TV` / `movie` / `OVA` / `ONA` / `special`.
+
+**Region** is the disc's playback region — `A` (North America) / `B` (UK & Europe) / `A/B` (region-free). A UK edition is tracked separately from its NA counterpart.
+
+**Edition** flags a limited variant — `SteelBook` or `LE` (limited/collector's edition).
+
+**Origin** is the production country — `JP` for the Japanese animation tracked here, with `US` / `other` for co-productions.
 '''
 
 
@@ -38,7 +40,7 @@ def write_page(releases: Iterable[Release], output: Path, title: str, github: bo
         if not github and description:
             # YAML front matter → jekyll-seo-tag emits unique <title> +
             # meta description per page (long-tail queries like
-            # "<year> manga releases"). Descriptions must not contain
+            # "<year> anime blu-ray releases"). Descriptions must not contain
             # double quotes.
             page_title = title.splitlines()[0].lstrip('#').strip()
             file.write('---\n'
@@ -57,7 +59,7 @@ def write_page(releases: Iterable[Release], output: Path, title: str, github: bo
             if month != release.date.month:
                 month = release.date.month
                 file.write(f'\n### {release.date.strftime("%B")}\n\n'
-                           '|Date|Series|Volume|Publisher|Type|\n'
+                           '|Date|Title|Vol|Distributor|Format|\n'
                            '|:---:|---|:---:|---|:---:|\n')
 
             date = release.date.strftime('%b %d')
@@ -93,10 +95,10 @@ def main() -> None:
     releases = get_releases()
     current = get_current(releases)
     write_page(current,
-               OUT, '# Licensed Manga Releases\n\n'
-               'Automated release calendar for licensed English manga, manhwa, '
-               'manhua & webtoons — updated daily at [mangarelease.github.io]'
-               '(https://mangarelease.github.io).', True)
+               OUT, '# Anime Release Calendar\n\n'
+               'Automated release calendar for anime on Blu-ray, DVD & 4K UHD — '
+               'updated daily at [animerelease.github.io]'
+               '(https://animerelease.github.io).', True)
     with open(OUT, 'a', encoding='utf-8') as file:
         file.write(TAXONOMY)
         file.write('\n\n---\n\nData engine forked from '

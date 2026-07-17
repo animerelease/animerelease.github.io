@@ -1,5 +1,7 @@
 # Jekyll config — url/baseurl are injected by the Pages build action.
 # jekyll-sitemap generates /sitemap.xml for Search Console.
+title: Anime Releases
+description: Automated release calendar for anime on Blu-ray, DVD & 4K UHD, updated daily.
 plugins:
   - jekyll-sitemap
   

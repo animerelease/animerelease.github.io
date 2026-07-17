@@ -202,10 +202,10 @@ def extract_release_date(text: str, today: datetime.date | None = None) -> datet
 
 class Format(StrEnum):
     NONE = ''
-    UHD = '🟥'          # 4K UHD
-    BLU_RAY = '🔷'      # Blu-ray
-    DVD = '⚪'          # DVD
-    MULTI = '📀'        # a release spanning more than one disc format
+    UHD = '4K UHD'
+    BLU_RAY = 'Blu-ray'
+    DVD = 'DVD'
+    MULTI = 'Multi'     # a release spanning more than one disc format
 
     @classmethod
     def from_str(cls, s: str) -> Self:

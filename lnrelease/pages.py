@@ -17,15 +17,15 @@ def main() -> None:
     releases = get_releases()
     current = get_current(releases)
 
-    title = 'Manga Releases'
-    scope = 'licensed English manga, manhwa, manhua & webtoons'
-    # all anime disc releases are physical, so there is no per-format split;
-    # html.md is the full non-JS calendar (the noscript target)
+    title = 'Anime Releases'
+    scope = 'anime on Blu-ray, DVD & 4K UHD'
+    # every release here is a physical disc, so there is no per-format page
+    # split; html.md is the full non-JS calendar (the noscript target)
     write_page(current,
-               HTML, f'# Licensed {title}',
+               HTML, f'# {title}',
                description=f'Full release calendar for {scope} — '
-                           'every upcoming volume with date, series, '
-                           'publisher and format, updated daily.')
+                           'every upcoming disc with date, title, '
+                           'distributor, format and region, updated daily.')
 
     YEAR.mkdir(exist_ok=True)
     start = 0
@@ -35,8 +35,8 @@ def main() -> None:
         end = bisect_right(releases, end_date, key=attrgetter('date'), lo=start)
         write_page(releases[start:end], YEAR/f'{year}.md', f'# {year} {title}',
                    description=f'{year} release calendar for {scope} — '
-                               f'every volume released in {year} with '
-                               'date, series, publisher and format.')
+                               f'every disc released in {year} with '
+                               'date, title, distributor and format.')
         start = end
 
     releases.sort(key=lambda x: x.serieskey)

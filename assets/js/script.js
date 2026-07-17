@@ -8,10 +8,11 @@ const HEADER_HEIGHT = 32;
 const GROUP_HEIGHT = 28;
 const EXTRA_HEIGHT = 24;
 
-const PHYSICAL = 1;
-const DIGITAL = 2;
-const PHYSICAL_DIGITAL = 3;
-const AUDIOBOOK = 4;
+// disc-format ids, matching enumerate(utils.Format): NONE=0, then:
+const UHD = 1;
+const BLU_RAY = 2;
+const DVD = 3;
+const MULTI = 4;
 
 const SHOWN = document.getElementById('shown');
 const TOTAL = document.getElementById('total');
@@ -69,7 +70,7 @@ settings.order ??= 0;
 settings.star ??= false;
 settings.series ??= [];
 settings.publisher ??= [];
-settings.format ??= [PHYSICAL, DIGITAL, PHYSICAL_DIGITAL];
+settings.format ??= [UHD, BLU_RAY, DVD, MULTI];
 settings.monthMode ??= false;
 const monthSupport = (() => { // Check browser support
     if (DATE_START.type == 'month')
@@ -200,17 +201,17 @@ class Book {
         this.normTitle = norm(this.title);
         let format;
         switch (this.format) {
-            case PHYSICAL:
-                format = 'physical';
+            case UHD:
+                format = '4k|uhd';
                 break;
-            case DIGITAL:
-                format = 'digital';
+            case BLU_RAY:
+                format = 'blu-ray|bluray|bd';
                 break;
-            case PHYSICAL_DIGITAL:
-                format = 'physical|digital';
+            case DVD:
+                format = 'dvd';
                 break;
-            case AUDIOBOOK:
-                format = 'audiobook';
+            case MULTI:
+                format = 'multi';
                 break;
         }
         this.search = `${this.normTitle}|${this.normSeries}|${norm(this.publisher)}|${this.volume}|${format}`;
@@ -345,27 +346,20 @@ function getRow(book, widths) {
 
     const format = document.createElement('div');
     format.style.width = widths[4];
-    format.title = book.isbn;
+    format.title = book.isbn;  // the disc's UPC / catalog code
     switch (book.format) {
-        case PHYSICAL: {
-            const span = document.createElement('span');
-            span.className = 'hidden';
-            span.textContent = '🖥️';
-            format.append(span, '📖');
+        case UHD:
+            format.textContent = '4K UHD';
             break;
-        } case DIGITAL: {
-            const span = document.createElement('span');
-            span.className = 'hidden';
-            span.textContent = '📖';
-            format.append('🖥️', span);
+        case BLU_RAY:
+            format.textContent = 'Blu-ray';
             break;
-        } case PHYSICAL_DIGITAL: {
-            format.textContent = '🖥️📖';
+        case DVD:
+            format.textContent = 'DVD';
             break;
-        } case AUDIOBOOK: {
-            format.textContent = '🔊';
+        case MULTI:
+            format.textContent = 'Multi';
             break;
-        }
     }
 
     book.row = document.createElement('div');
@@ -559,7 +553,7 @@ function setWidths(volumes, publishers) {
         pub.textContent = publisher;
         pub.style.display = 'table-cell';
         const format = document.createElement('div');
-        format.textContent = '🖥️📖';
+        format.textContent = '4K UHD';
         row.append(date, title, vol, pub, format);
         rows.push(row);
     }
@@ -789,14 +783,17 @@ function filterTable(novels) {
                     }
                     continue;
                 } else if ('format'.startsWith(key) || 'type'.startsWith(key)) {
-                    if ('physical'.startsWith(value) || 'paperback'.startsWith(value)) {
-                        (neg ? formatsExc : formatsInc).add(PHYSICAL);
+                    if ('4k'.startsWith(value) || 'uhd'.startsWith(value) || 'ultrahd'.startsWith(value)) {
+                        (neg ? formatsExc : formatsInc).add(UHD);
                         continue;
-                    } else if ('digital'.startsWith(value) || 'ebook'.startsWith(value)) {
-                        (neg ? formatsExc : formatsInc).add(DIGITAL);
+                    } else if ('bluray'.startsWith(value) || 'bd'.startsWith(value)) {
+                        (neg ? formatsExc : formatsInc).add(BLU_RAY);
                         continue;
-                    } else if ('audiobook'.startsWith(value)) {
-                        (neg ? formatsExc : formatsInc).add(AUDIOBOOK);
+                    } else if ('dvd'.startsWith(value)) {
+                        (neg ? formatsExc : formatsInc).add(DVD);
+                        continue;
+                    } else if ('multi'.startsWith(value) || 'combo'.startsWith(value)) {
+                        (neg ? formatsExc : formatsInc).add(MULTI);
                         continue;
                     }
                 }
@@ -808,9 +805,7 @@ function filterTable(novels) {
         const publishers = publishersInc.size === 0 ? publishersExc
             : new Set(novels.publishers.keys()).difference(publishersInc).union(publishersExc);
         const formats = formatsInc.size === 0 ? formatsExc
-            : new Set([PHYSICAL, DIGITAL, AUDIOBOOK]).difference(formatsInc).union(formatsExc);
-        if (formats.has(PHYSICAL) && formats.has(DIGITAL))
-            formats.add(PHYSICAL_DIGITAL);
+            : new Set([UHD, BLU_RAY, DVD, MULTI]).difference(formatsInc).union(formatsExc);
 
         for (const book of novels) {
             if (!(book.filters.publisher && book.filters.format)) {
@@ -1198,17 +1193,17 @@ function initFormat(novels) {
         menu.querySelectorAll('input[name="format"]'), box => {
             let format;
             switch (box.value) {
-                case 'physical':
-                    format = PHYSICAL;
+                case 'uhd':
+                    format = UHD;
                     break;
-                case 'digital':
-                    format = DIGITAL;
+                case 'bluray':
+                    format = BLU_RAY;
                     break;
-                case 'physical-digital':
-                    format = PHYSICAL_DIGITAL;
+                case 'dvd':
+                    format = DVD;
                     break;
-                case 'audiobook':
-                    format = AUDIOBOOK;
+                case 'multi':
+                    format = MULTI;
                     break;
             }
             const check = novels.filters.format.has(format);
@@ -1436,6 +1431,6 @@ async function init() {
 
 init().catch(error => {
     console.log(error);
-    const s = `Error loading manga: ${error}`;
+    const s = `Error loading releases: ${error}`;
     ROWS.prepend(getGroup(s, 'error'));
 });
