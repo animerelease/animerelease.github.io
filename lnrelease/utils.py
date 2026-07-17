@@ -1,0 +1,381 @@
+import csv
+import datetime
+import re
+import unicodedata
+import warnings
+from collections.abc import Iterator
+from dataclasses import dataclass, field
+from enum import StrEnum
+from pathlib import Path
+from typing import Self
+
+import store
+
+# spelled-out volume numbers (One..Twenty). Publishers ship the same series with
+# either "Vol. 9" or "Volume Nine", and both must strip to the same series key,
+# or the word form leaks in as loreolympusvolumenine / flightvolumeeight (which
+# also splits every spelled volume into its own singleton series). WORD_NUMBERS
+# maps the words back to ints for volume parsing (see publisher/__init__.py).
+WORD_NUMBERS = {
+    'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'six': 6, 'seven': 7,
+    'eight': 8, 'nine': 9, 'ten': 10, 'eleven': 11, 'twelve': 12, 'thirteen': 13,
+    'fourteen': 14, 'fifteen': 15, 'sixteen': 16, 'seventeen': 17, 'eighteen': 18,
+    'nineteen': 19, 'twenty': 20,
+}
+WORD_NUMBER = '|'.join(WORD_NUMBERS)  # alternation for embedding in patterns
+# a volume value: a digit run (1, 1.5, 1-3) or a spelled number with a trailing
+# word boundary so "Volume Oneshot" is not read as "Volume One"
+_VOL_VALUE = rf'(?:\d[\d\-\.]*|(?:{WORD_NUMBER})\b)'
+
+TITLE = re.compile(r' [\(\[](?:manga|manhwa|manhua|webtoons?|comics?|graphic novel|audio(?:book)?|(?:\w+ )?e?book|spin[- ]?off)[\)\]]|: the manga$', flags=re.IGNORECASE)
+# `part` stays digit-only: a spelled "Part Three" is a subtitle part (e.g.
+# "Black Hammer Volume 7: Reborn Part Three"), never the primary volume token
+SERIES = re.compile(r'(?:\b|\s|,|:|-)+(?:[\(\[](?:manga|manhwa|manhua|webtoons?|comics?|graphic novel|audio(?:book)?|e?book|spin[- ]?off)[\)\[]|(?:(?:vol\.|volume) ?' + _VOL_VALUE + r'|part ?\d[\d\-\.]*)|omnibus(?: \d*)?|(?:special|collector\'s) edition)(?:(?=\W)|$)', flags=re.IGNORECASE)
+NONWORD = re.compile(r'\W')
+IA = re.compile(r'https?://web\.archive\.org/web/\d{14}/(?P<url>.+)')
+
+PHYSICAL = ('Physical', 'Hardcover', 'Hardback', 'Paperback')
+DIGITAL = ('Digital', 'eBook')
+AUDIOBOOK = ('Audiobook', 'Audio')
+FORMATS = {x: i for i, x in enumerate(PHYSICAL + DIGITAL + AUDIOBOOK)}
+
+PRIMARY = (
+    'Ablaze',
+    'Dark Horse',
+    'Denpa',
+    'Ize Press',
+    'J-Novel Club',
+    'Kodansha',
+    'One Peace Books',
+    'Seven Seas Entertainment',
+    'Square Enix',
+    'TOKYOPOP',
+    'Udon Entertainment',
+    'VIZ Media',
+    'Yen Press',
+)
+SECONDARY = (
+    'BOOK☆WALKER',
+    'BookWalker',
+    'Penguin Random House',
+    'Crunchyroll',
+    'Apple',
+    'Barnes & Noble',
+    'Google',
+    'Kobo',
+    'Audible',
+    'Amazon',
+)
+SOURCES = {x: i for i, x in enumerate(PRIMARY + SECONDARY)}
+
+# placeholder date
+EPOCH = datetime.date(1, 1, 1)
+
+# origin/category tagging
+ORIGINS = ('JP', 'KR', 'CN', 'other')
+CATEGORIES = ('manga', 'manhwa', 'manhua', 'webtoon', 'comic', 'artbook', 'anthology')
+# title markers that identify origin/category before SERIES/TITLE strip them
+MARKERS = {
+    'manhwa': ('KR', 'manhwa'),
+    'manhua': ('CN', 'manhua'),
+    'webtoon': ('KR', 'webtoon'),
+    'artbook': ('', 'artbook'),
+    'art book': ('', 'artbook'),
+    'anthology': ('', 'anthology'),
+}
+MARKER = re.compile(r'[\(\[](?P<marker>' + '|'.join(MARKERS) + r')[\)\]]|\b(?P<word>manhwa|manhua|webtoon|anthology)\b', flags=re.IGNORECASE)
+
+
+def clean_str(s: str) -> str:
+    return NONWORD.sub('', unicodedata.normalize('NFKD', s)).lower()
+
+
+def volume_lt(a: str, b: str) -> bool:
+    try:
+        af = float(a.split('-')[0])
+        bf = float(b.split('-')[0])
+        return af < bf
+    except ValueError:
+        return a < b
+
+
+class Format(StrEnum):
+    NONE = ''
+    PHYSICAL = '📖'
+    DIGITAL = '🖥️'
+    PHYSICAL_DIGITAL = '🖥️📖'
+    AUDIOBOOK = '🔊'
+
+    @classmethod
+    def from_str(cls, s: str) -> Self:
+        if s in PHYSICAL:
+            return cls.PHYSICAL
+        elif s in DIGITAL:
+            return cls.DIGITAL
+        elif s in AUDIOBOOK:
+            return cls.AUDIOBOOK
+        warnings.warn(f'Unknown format: {s}', RuntimeWarning)
+        return cls.NONE
+
+    def is_digital(self) -> bool:
+        return self == Format.DIGITAL or self == Format.PHYSICAL_DIGITAL
+
+    def is_physical(self) -> bool:
+        return self == Format.PHYSICAL or self == Format.PHYSICAL_DIGITAL
+
+
+@dataclass
+class Key:
+    key: str
+    date: datetime.date
+
+    @classmethod
+    def from_db(cls, link: str, date: str) -> None:
+        date = datetime.date.fromisoformat(date) if date else None
+        return cls(link, date)
+
+    def __eq__(self, other: Self) -> bool:
+        return isinstance(other, self.__class__) and self.key == other.key
+
+    def __lt__(self, other: Self) -> bool:
+        return self.key < other.key
+
+    def __hash__(self) -> int:
+        return hash(self.key)
+
+    def __iter__(self) -> Iterator[Self]:
+        yield self.key
+        yield self.date
+
+
+@dataclass
+class Series:
+    key: str
+    title: str
+    origin: str = ''
+    category: str = ''
+    flag: str = ''
+
+    def __post_init__(self) -> None:
+        if not (self.origin and self.category) and (match := MARKER.search(self.title)):
+            marker = (match.group('marker') or match.group('word')).lower()
+            origin, category = MARKERS[marker]
+            self.origin = self.origin or origin
+            self.category = self.category or category
+        self.title = SERIES.sub('', self.title).replace('’', "'").strip()
+        self.key = self.key or clean_str(self.title)
+
+    @classmethod
+    def from_db(cls, key: str, title: str, origin: str = '',
+                category: str = '', flag: str = '') -> Self:
+        return cls(key, title, origin, category, flag)
+
+    def __eq__(self, other: Self) -> bool:
+        return isinstance(other, self.__class__) and self.key == other.key
+
+    def __lt__(self, other: Self) -> bool:
+        return self.key < other.key
+
+    def __hash__(self) -> int:
+        return hash(self.key)
+
+    def __iter__(self) -> Iterator[Self]:
+        yield self.key
+        yield self.title
+        yield self.origin
+        yield self.category
+        yield self.flag
+
+
+@dataclass
+class Info:
+    serieskey: str
+    link: str
+    source: str
+    publisher: str
+    title: str
+    index: int  # unreliable, 0 is unset
+    format: str
+    isbn: str
+    date: datetime.date
+    alts: list[str] = field(default_factory=list)
+
+    def __post_init__(self) -> None:
+        if match := IA.fullmatch(self.link):
+            self.link = match.group('url')
+        self.title = TITLE.sub('', self.title).replace('’', "'").strip()
+        self.date = self.date or EPOCH
+
+    @classmethod
+    def from_db(cls, serieskey: str, link: str, source: str, publisher: str, title: str,
+                index: str, format: str, isbn: str, date: str, *alts: str) -> Self:
+        index = int(index)
+        date = datetime.date.fromisoformat(date)
+        alts = list(alts)
+        return cls(serieskey, link, source, publisher, title, index, format, isbn, date, alts)
+
+    def __eq__(self, other: Self) -> bool:
+        return (isinstance(other, self.__class__)
+                and store.equal(self.link, other.link)
+                and self.format == other.format)
+
+    def __lt__(self, other: Self) -> bool:
+        if self.serieskey != other.serieskey:
+            return self.serieskey < other.serieskey
+        elif self.publisher != other.publisher:
+            return self.publisher < other.publisher
+        elif self.source != other.source:
+            return SOURCES[self.source] < SOURCES[other.source]
+        elif self.format != other.format:
+            return self.format < other.format
+        elif self.date != other.date:
+            return self.date < other.date
+        elif self.index != other.index:
+            return self.index < other.index
+        return self.link < other.link
+
+    def __hash__(self) -> int:
+        return hash((store.hash_link(self.link), self.format))
+
+    def __iter__(self) -> Iterator[Self]:
+        yield self.serieskey
+        yield self.link
+        yield self.source
+        yield self.publisher
+        yield self.title
+        yield self.index
+        yield self.format
+        yield self.isbn
+        yield self.date
+        self.alts.sort()
+        for alt in self.alts:
+            yield alt
+
+
+@dataclass
+class Book:
+    serieskey: str
+    link: str
+    publisher: str
+    name: str
+    volume: str
+    format: str
+    isbn: str
+    date: datetime.date
+    origin: str = ''
+    category: str = ''
+
+    @classmethod
+    def from_db(cls, serieskey: str, link: str, publisher: str, name: str,
+                volume: str, format: str, isbn: str, date: str,
+                origin: str = '', category: str = '') -> Self:
+        date = datetime.date.fromisoformat(date)
+        return cls(serieskey, link, publisher, name, volume, format, isbn, date, origin, category)
+
+    def __eq__(self, other: Self) -> bool:
+        return (isinstance(other, self.__class__)
+                and self.serieskey == other.serieskey
+                and self.publisher == other.publisher
+                and self.name == other.name
+                and self.volume == other.volume
+                and self.format == other.format
+                and self.date == other.date)
+
+    def __lt__(self, other: Self) -> bool:
+        if self.serieskey != other.serieskey:
+            return self.serieskey < other.serieskey
+        elif self.format != other.format:
+            return self.format < other.format
+        elif self.publisher != other.publisher:
+            return self.publisher < other.publisher
+        elif self.date != other.date:
+            return self.date < other.date
+        elif self.volume != other.volume:
+            return volume_lt(self.volume, other.volume)
+        return self.name < other.name
+
+    def __hash__(self) -> int:
+        return hash((self.serieskey,
+                     self.publisher,
+                     self.name,
+                     self.volume,
+                     self.format,
+                     self.date))
+
+    def __iter__(self) -> Iterator[Self]:
+        yield self.serieskey
+        yield self.link
+        yield self.publisher
+        yield self.name
+        yield self.volume
+        yield self.format
+        yield self.isbn
+        yield self.date
+        yield self.origin
+        yield self.category
+
+
+@dataclass
+class Release:
+    serieskey: str
+    link: str
+    publisher: str
+    name: str
+    volume: str
+    format: Format
+    isbn: str
+    date: datetime.date
+    origin: str = ''
+    category: str = ''
+
+    def __eq__(self, other: Self) -> bool:
+        return (isinstance(other, self.__class__)
+                and self.publisher == other.publisher
+                and clean_str(self.name) == clean_str(other.name)
+                and self.volume == other.volume
+                and (self.format in AUDIOBOOK) == (other.format in AUDIOBOOK)
+                and self.date == other.date)
+
+    def __lt__(self, other: Self) -> bool:
+        if self.date != other.date:
+            return self.date < other.date
+        elif self.serieskey != other.serieskey:
+            return self.serieskey < other.serieskey
+        elif self.publisher != other.publisher:
+            return self.publisher < other.publisher
+        elif self.volume != other.volume:
+            return volume_lt(self.volume, other.volume)
+        return self.name < other.name
+
+    def __hash__(self) -> int:
+        return hash((self.publisher,
+                     clean_str(self.name),
+                     self.volume,
+                     self.format in AUDIOBOOK,
+                     self.date))
+
+
+class Table(set[Key | Info | Book | Series]):
+    def __init__(self, file: Path, cls: type[Key | Info | Book | Series]) -> None:
+        super().__init__()
+        self.file = file
+        self.cls = cls
+        if file.is_file():
+            with open(self.file, 'r', encoding='utf-8', newline='') as f:
+                for line in csv.reader(f):
+                    self.add(self.cls.from_db(*line))
+
+    def save(self) -> None:
+        with open(self.file, 'w', encoding='utf-8', newline='') as f:
+            csv.writer(f).writerows(sorted(self))
+
+
+def find_series(title: str, series: set[Series]) -> Series | None:
+    s = clean_str(title)
+    matches: list[Series] = []
+    for serie in series:
+        if s.startswith(serie.key):
+            matches.append(serie)
+    if matches:
+        return max(matches, key=lambda x: len(x.title))
+    return None

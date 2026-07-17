@@ -1,0 +1,98 @@
+html {
+    line-height: 1.2;
+    font-family: $font-family;
+    background-color: $color-background;
+    scrollbar-gutter: stable;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 8px auto 32px;
+    min-width: 320px;
+    max-width: 1280px;
+    padding: 0 1em;
+    color: $color-font;
+    font-size: 16px;
+}
+
+a {
+    color: $color-link;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 24px 0 16px;
+    font-weight: $font-weight-bold;
+}
+
+@mixin header-rule {
+    padding-bottom: .3em;
+    border-bottom: 1px solid $color-rule;
+}
+
+h1 {
+    @include header-rule;
+    font-size: 2em;
+}
+
+h2 {
+    @include header-rule;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: .875em;
+}
+
+h6 {
+    font-size: .85em;
+}
+
+ul, ol {
+    padding-left: 2em;
+}
+
+li {
+    margin-top: .25em;
+}
+
+:focus-visible {
+    outline: 1px solid $color-font;
+}
+
+input {
+    margin: 0;
+    color: inherit;
+    line-height: 1.15;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: inherit;
+    border: 1px solid $color-border;
+    border-radius: .2em;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@media (width < 544px) {
+    body {
+        padding: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin: 24px 16px 16px;
+    }
+}

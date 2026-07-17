@@ -1,0 +1,4 @@
+# Test-only dependencies (not needed by the scrape pipeline).
+#   pip install -r requirements-dev.txt && python -m pytest
+-r requirements.txt
+pytest
