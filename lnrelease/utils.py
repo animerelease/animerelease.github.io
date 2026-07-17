@@ -105,6 +105,24 @@ def clean_str(s: str) -> str:
     return NONWORD.sub('', unicodedata.normalize('NFKD', s)).lower()
 
 
+def region_market(region: str) -> str:
+    """Coarse market a disc region belongs to, for cross-store dedup:
+
+    - ``UK``   — Region B / 2 / PAL (AllTheAnime's locked discs).
+    - ``FREE`` — region-free (A/B, Free): a distinct product from a locked disc,
+      so it merges with neither market.
+    - ``NA``   — Region A / 1 / unspecified, where MediaOCD and Sentai overlap;
+      a MediaOCD row with no region still merges with its Region-A Sentai twin.
+
+    A UK edition of a title is thus a distinct release from its NA edition."""
+    r = (region or '').upper().replace(' ', '')
+    if r in ('B', '2', 'PAL'):
+        return 'UK'
+    if r in ('A/B', 'FREE', 'ALL', 'REGIONFREE', 'A/B/C'):
+        return 'FREE'
+    return 'NA'
+
+
 def volume_lt(a: str, b: str) -> bool:
     try:
         af = float(a.split('-')[0])
@@ -363,12 +381,18 @@ class Book:
                    inf.upc, inf.catalog, inf.region, inf.edition, inf.date)
 
     def __eq__(self, other: Self) -> bool:
+        # region and edition are part of a disc's identity: a Region-B UK
+        # edition and a SteelBook are distinct releases from the standard NA
+        # disc even when title/publisher/date coincide, so they must not
+        # collide in the Table set before the cross-store merge runs.
         return (isinstance(other, self.__class__)
                 and self.serieskey == other.serieskey
                 and self.publisher == other.publisher
                 and self.name == other.name
                 and self.volume == other.volume
                 and self.format == other.format
+                and self.region == other.region
+                and self.edition == other.edition
                 and self.date == other.date)
 
     def __lt__(self, other: Self) -> bool:
@@ -382,6 +406,8 @@ class Book:
             return self.date < other.date
         elif self.volume != other.volume:
             return volume_lt(self.volume, other.volume)
+        elif self.edition != other.edition:
+            return self.edition < other.edition
         return self.name < other.name
 
     def __hash__(self) -> int:
@@ -390,6 +416,8 @@ class Book:
                      self.name,
                      self.volume,
                      self.format,
+                     self.region,
+                     self.edition,
                      self.date))
 
     def __iter__(self) -> Iterator[Self]:
@@ -429,6 +457,7 @@ class Release:
                 and self.publisher == other.publisher
                 and clean_str(self.name) == clean_str(other.name)
                 and self.volume == other.volume
+                and region_market(self.region) == region_market(other.region)
                 and self.edition == other.edition
                 and self.date == other.date)
 
@@ -447,6 +476,7 @@ class Release:
         return hash((self.publisher,
                      clean_str(self.name),
                      self.volume,
+                     region_market(self.region),
                      self.edition,
                      self.date))
 

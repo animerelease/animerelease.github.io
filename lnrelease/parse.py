@@ -10,7 +10,8 @@ from pathlib import Path
 
 import publisher
 from scrape import INFO, SERIES
-from utils import FORMATS, PRIMARY, SECONDARY, SOURCES, Book, Info, Series, Table
+from utils import (EPOCH, FORMATS, PRIMARY, SECONDARY, SOURCES, Book, Info,
+                   Series, Table, clean_str, region_market)
 
 # Manual date corrections: `code,date`, one per line where code is a catalog
 # number or UPC (see origins.csv for the same override pattern). Needed because
@@ -109,26 +110,69 @@ def main() -> None:
             book.origin = serie.origin or 'JP'
             book.category = serie.category or 'TV'
 
-    # collapse the same edition appearing more than once across series keys (a
-    # title split under an aggregator and a direct-store key). A UPC (or, when
-    # absent, the distributor catalog number) plus format identifies exactly one
-    # edition, so keep a single row per (code, format) -- on the key that carries
-    # the most volumes (the consolidated series). Rows with no code at all are
-    # left alone rather than collapsed together on an empty key.
-    by_edition: defaultdict[tuple[str, str], list[Book]] = defaultdict(list)
-    for book in books:
-        code = book.upc or book.catalog
-        if code:
-            by_edition[(code, book.format)].append(book)
-    keycount = Counter(book.serieskey for book in books)
-    for dupes in by_edition.values():
-        if len(dupes) > 1:
-            canon = max(dupes, key=lambda b: (keycount[b.serieskey], -len(b.serieskey)))
-            for b in dupes:
-                if b is not canon:
-                    books.discard(b)
-
+    merge_editions(books)
     books.save()
+
+
+def _find(parent: list[int], x: int) -> int:
+    while parent[x] != x:
+        parent[x] = parent[parent[x]]
+        x = parent[x]
+    return x
+
+
+def merge_editions(books: Table) -> None:
+    """Collapse the same physical release listed more than once -- across series
+    keys within a store, or across stores -- to a single row.
+
+    Rows are unioned when they share any identity signal: a UPC, a normalized
+    distributor catalog code, or a (normalized title, format, region-market,
+    edition) tuple. That last signal lets a MediaOCD row (no UPC) merge with the
+    Sentai listing of the same disc (which has one); the UPC/catalog signals
+    catch pairs whose titles differ between stores. A UK/Region-B edition never
+    merges with its NA counterpart (different market).
+
+    The surviving row prefers a real date and a real UPC, then the most-
+    consolidated series key, and is enriched in place with the date/UPC/region
+    from whichever store in the cluster supplied them -- so a MediaOCD street
+    date and a Sentai UPC end up on the same row.
+    """
+    lst = list(books)
+    signals: defaultdict[tuple, list[int]] = defaultdict(list)
+    for i, b in enumerate(lst):
+        if b.upc:
+            signals[('upc', b.upc)].append(i)
+        if b.catalog:
+            signals[('cat', clean_code(b.catalog))].append(i)
+        signals[('tfr', clean_str(b.name), b.format,
+                 region_market(b.region), b.edition)].append(i)
+
+    parent = list(range(len(lst)))
+    for ids in signals.values():
+        for j in ids[1:]:
+            parent[_find(parent, j)] = _find(parent, ids[0])
+
+    clusters: defaultdict[int, list[Book]] = defaultdict(list)
+    for i, b in enumerate(lst):
+        clusters[_find(parent, i)].append(b)
+
+    keycount = Counter(b.serieskey for b in lst)
+    for group in clusters.values():
+        if len(group) < 2:
+            continue
+        canon = max(group, key=lambda b: (b.date != EPOCH, bool(b.upc),
+                                          keycount[b.serieskey], -len(b.serieskey)))
+        if not canon.upc:
+            canon.upc = next((b.upc for b in group if b.upc), '')
+        if canon.date == EPOCH:
+            real = [b.date for b in group if b.date != EPOCH]
+            if real:
+                canon.date = min(real)
+        if not canon.region:
+            canon.region = next((b.region for b in group if b.region), '')
+        for b in group:
+            if b is not canon:
+                books.discard(b)
 
 
 if __name__ == '__main__':
