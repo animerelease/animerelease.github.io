@@ -28,11 +28,7 @@ TIMEOUT = int(os.environ.get('SCRAPE_TIMEOUT', 60 * 60 * 12))
 # New sources (no prior rows) are never guarded; the fraction is per-source so a
 # legitimately small source isn't held to the same bar.
 DEFAULT_GUARD_FRAC = 0.1
-GUARD_FRAC: dict[str, float] = {
-    # Square Enix legitimately carries few, slowly-growing rows; only guard on a
-    # near-total collapse rather than normal run-to-run variation
-    'Square Enix': 0.05,
-}
+GUARD_FRAC: dict[str, float] = {}
 
 
 def wipe_guard(name: str, prior: set, new: set) -> bool:

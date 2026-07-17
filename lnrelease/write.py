@@ -27,12 +27,6 @@ TAXONOMY = '''
 
 
 def get_format(format: Format, github: bool) -> str:
-    if github:
-        return str(format)
-    elif format == Format.DIGITAL:
-        return f'{format}<span class="hidden">{Format.PHYSICAL}</span>'
-    elif format == Format.PHYSICAL:
-        return f'<span class="hidden">{Format.DIGITAL}</span>{format}'
     return str(format)
 
 
@@ -79,9 +73,9 @@ def get_releases() -> list[Release]:
     for release, books in dic.items():
         books.sort(key=lambda b: FORMATS.get(b.format, 0))
         formats = {Format.from_str(b.format) for b in books}
-        release.format = formats.pop() if len(formats) == 1 else Format.PHYSICAL_DIGITAL
+        release.format = formats.pop() if len(formats) == 1 else Format.MULTI
         release.link = books[0].link
-        release.isbn = books[0].isbn
+        release.upc = books[0].upc
     return sorted(dic)
 
 
@@ -98,7 +92,7 @@ def get_current(releases: list[Release]) -> tuple[int, int]:
 def main() -> None:
     releases = get_releases()
     current = get_current(releases)
-    write_page((b for b in current if b.format != Format.AUDIOBOOK),
+    write_page(current,
                OUT, '# Licensed Manga Releases\n\n'
                'Automated release calendar for licensed English manga, manhwa, '
                'manhua & webtoons — updated daily at [mangarelease.github.io]'

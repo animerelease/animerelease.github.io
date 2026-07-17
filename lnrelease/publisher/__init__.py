@@ -110,7 +110,7 @@ def copy(series: Series, info: dict[str, list[Info]], books: dict[str, list[Book
     poss = {d: b for d, b in zip(main_diff, main_books) if b}
     poss |= {d.split(':')[0]: b for d, b in poss.items() if ':' in d}
     titles = {inf.title: book for inf, book in zip(main_info, main_books)}
-    isbns = {inf.isbn: book for inf, book in zip(main_info, main_books) if inf.isbn}
+    isbns = {inf.upc: book for inf, book in zip(main_info, main_books) if inf.upc}
 
     for key, lst in books.items():
         # find close match
@@ -121,26 +121,26 @@ def copy(series: Series, info: dict[str, list[Info]], books: dict[str, list[Book
 
             if inf.title in titles:
                 book = titles[inf.title]
-            elif inf.isbn in isbns:
-                book = isbns[inf.isbn]
+            elif inf.upc in isbns:
+                book = isbns[inf.upc]
             elif match := get_close_matches(diff[i], poss, n=1, cutoff=0.9):
                 book = poss[match[0]]
             elif SequenceMatcher(a=diff[i], b=main_diff[i]).ratio() > 0.5:
                 book = main_books[i]
             else:
                 continue
-            lst[i] = Book(series.key, inf.link, inf.publisher, book.name, book.volume, inf.format, inf.isbn, inf.date)
+            lst[i] = Book.from_info(series.key, inf, book.name, book.volume)
             changed = True
 
         # assume same order
         if all(x is None or x.volume == b.volume for x, b in zip(lst, main_books)) and len(lst) == len(main_books):
             for i, (inf, book) in enumerate(zip(info[key], main_books)):
-                lst[i] = Book(series.key, inf.link, inf.publisher, book.name, book.volume, inf.format, inf.isbn, inf.date)
+                lst[i] = Book.from_info(series.key, inf, book.name, book.volume)
 
         # single volume
         if len(lst) == 1 and not lst[0]:
             inf = info[key][0]
-            lst[0] = Book(series.key, inf.link, inf.publisher, inf.title, '1', inf.format, inf.isbn, inf.date)
+            lst[0] = Book.from_info(series.key, inf, inf.title, '1')
             continue
 
     return changed
@@ -164,7 +164,7 @@ def standard(series: Series, info: dict[str, list[Info]], books: dict[str, list[
                 vol = '1'
             else:
                 continue
-            books[key][i] = Book(series.key, inf.link, inf.publisher, name, vol, inf.format, inf.isbn, inf.date)
+            books[key][i] = Book.from_info(series.key, inf, name, vol)
             changed = True
     return changed
 
@@ -182,7 +182,7 @@ def omnibus(series: Series, info: dict[str, list[Info]], books: dict[str, list[B
                 vol = '1'
             else:
                 continue
-            books[key][i] = Book(series.key, inf.link, inf.publisher, name, vol, inf.format, inf.isbn, inf.date)
+            books[key][i] = Book.from_info(series.key, inf, name, vol)
             changed = True
     return changed
 
@@ -199,7 +199,7 @@ def one(series: Series, info: dict[str, list[Info]], books: dict[str, list[Book]
 
         name = inf.title
         vol = '1'
-        main_books[i] = Book(series.key, inf.link, inf.publisher, name, vol, inf.format, inf.isbn, inf.date)
+        main_books[i] = Book.from_info(series.key, inf, name, vol)
         changed = True
     return changed
 
@@ -217,7 +217,7 @@ def _guess(series: Series, info: list[Info], books: list[Book]) -> bool:
             vol = str(int(float(books[i-1].volume)) + 1)
             if i+1 < len(books) and (b := books[i+1]) and float(vol) >= float(b.volume):
                 warnings.warn(f'Volume parsing error: {inf.title}', RuntimeWarning)
-        books[i] = Book(series.key, inf.link, inf.publisher, inf.title, vol, inf.format, inf.isbn, inf.date)
+        books[i] = Book.from_info(series.key, inf, inf.title, vol)
         changed = True
     return changed
 
@@ -248,7 +248,7 @@ def short(series: Series, info: dict[str, list[Info]], books: dict[str, list[Boo
         else:
             continue
         vol = match.group('volume')
-        main_books[i] = Book(series.key, inf.link, inf.publisher, name, vol, inf.format, inf.isbn, inf.date)
+        main_books[i] = Book.from_info(series.key, inf, name, vol)
         changed = True
     return changed
 
@@ -273,7 +273,7 @@ def part(series: Series, info: dict[str, list[Info]], books: dict[str, list[Book
             name = inf.title
             vol = '1'
             warnings.warn(f'Part volume parsing error: {inf.title}', RuntimeWarning)
-        main_books[i] = Book(series.key, inf.link, inf.publisher, name, vol, inf.format, inf.isbn, inf.date)
+        main_books[i] = Book.from_info(series.key, inf, name, vol)
         changed = True
     return changed
 
@@ -291,7 +291,7 @@ def url(series: Series, info: dict[str, list[Info]], books: dict[str, list[Book]
         if match := URL.search(inf.link):
             name = inf.title
             vol = match.group('volume')
-            main_books[i] = Book(series.key, inf.link, inf.publisher, name, vol, inf.format, inf.isbn, inf.date)
+            main_books[i] = Book.from_info(series.key, inf, name, vol)
             changed = True
     return changed
 
@@ -357,7 +357,7 @@ def secondary(series: Series, info: dict[str, list[Info]],
         if volume := volumes.most_common(1):
             name = series.title
             vol = volume[0][0]
-            main_books[i] = Book(series.key, inf.link, inf.publisher, name, vol, inf.format, inf.isbn, inf.date)
+            main_books[i] = Book.from_info(series.key, inf, name, vol)
             changed = True
 
     dupes(main_books)

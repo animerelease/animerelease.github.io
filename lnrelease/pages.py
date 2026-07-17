@@ -9,9 +9,6 @@ from utils import Format, Series, Table
 from write import get_current, get_releases, write_page
 
 HTML = Path('html.md')
-DIGITAL = Path('digital.md')
-PHYSICAL = Path('physical.md')
-AUDIOBOOK = Path('audiobook.md')
 YEAR = Path('year')
 DATA = Path('data.json')
 
@@ -22,26 +19,13 @@ def main() -> None:
 
     title = 'Manga Releases'
     scope = 'licensed English manga, manhwa, manhua & webtoons'
-    write_page((b for b in current if b.format != Format.AUDIOBOOK),
+    # all anime disc releases are physical, so there is no per-format split;
+    # html.md is the full non-JS calendar (the noscript target)
+    write_page(current,
                HTML, f'# Licensed {title}',
                description=f'Full release calendar for {scope} — '
                            'every upcoming volume with date, series, '
                            'publisher and format, updated daily.')
-    write_page((b for b in current if b.format.is_digital()),
-               DIGITAL, f'# Digital {title}',
-               description=f'Digital and ebook releases for {scope} — '
-                           'upcoming volumes with dates and publishers, '
-                           'updated daily.')
-    write_page((b for b in current if b.format.is_physical()),
-               PHYSICAL, f'# Physical {title}',
-               description=f'Physical print releases for {scope} — '
-                           'upcoming volumes with dates and publishers, '
-                           'updated daily.')
-    write_page((b for b in current if b.format == Format.AUDIOBOOK),
-               AUDIOBOOK, f'# Audiobook {title}',
-               description=f'Audiobook releases for {scope} — '
-                           'upcoming titles with dates and publishers, '
-                           'updated daily.')
 
     YEAR.mkdir(exist_ok=True)
     start = 0
@@ -60,8 +44,12 @@ def main() -> None:
     series = {x: i for i, x in enumerate(sorted({x.serieskey for x in releases}))}
     publishers = {x: i for i, x in enumerate(sorted({x.publisher for x in releases}))}
     formats = {x: i for i, x in enumerate(Format)}
+    # data rows keep indices 0-7 (series, link, publisher, name, volume, format,
+    # code, date) stable for the existing table script; the new disc fields
+    # (catalog, region, edition) are appended at 8-10. The code slot carries the
+    # UPC when known, else the distributor catalog number.
     jsn = {'series': [[key, table[key].title,
-                       table[key].origin or 'JP', table[key].category or 'manga']
+                       table[key].origin or 'JP', table[key].category or 'TV']
                       for key in series],
            'publishers': list(publishers),
            'data': [[series[x.serieskey],
@@ -70,8 +58,11 @@ def main() -> None:
                 x.name,
                 x.volume,
                 formats[x.format],
-                x.isbn,
+                x.upc or x.catalog,
                 str(x.date),
+                x.catalog,
+                x.region,
+                x.edition,
                 ] for x in releases]}
     with open(DATA, 'w') as file:
         json.dump(jsn, file, separators=(',', ':'))
