@@ -10,10 +10,11 @@ regenerates it, so it is the safe place for developer-facing notes.
 > pipeline, `session.py`, and the CSV-as-database design are unchanged; the data
 > model, sources, and taxonomy are anime-specific (see `SOURCES.md`).
 >
-> **Migration status:** MediaOCD is the only live source. Sentai Filmworks and
-> AllTheAnime are next (SOURCES.md). The `lnrelease/store/*.py` modules and much
-> of `lnrelease/publisher/__init__.py` are inherited manga-era code kept only as
-> the generic fallback path — a later pass can prune them.
+> **Migration status:** three live sources — MediaOCD (WooCommerce), Sentai
+> Filmworks and AllTheAnime (Shopify). Amazon is the planned NA fallback
+> (SOURCES.md). The `lnrelease/store/*.py` modules and much of
+> `lnrelease/publisher/__init__.py` are inherited manga-era code kept only as the
+> generic fallback path — a later pass can prune them.
 
 ## The one thing to know
 
@@ -40,9 +41,9 @@ scrape → tag → parse → write → pages
 
 | Stage | Module | Reads | Writes |
 |-------|--------|-------|--------|
-| **scrape** | `scrape.py` + `source/*.py` | source sites (MediaOCD Store API) | `series.csv`, `info.csv` |
+| **scrape** | `scrape.py` + `source/*.py` | MediaOCD / Sentai / AllTheAnime | `series.csv`, `info.csv` |
 | **tag**    | `tag.py`   | `origins.csv` (overrides) | taxonomy applied in-memory |
-| **parse**  | `parse.py` + `publisher/__init__.py` | `series.csv`, `info.csv` | `books.csv` |
+| **parse**  | `parse.py` + `publisher/__init__.py` | `series.csv`, `info.csv` | `books.csv` (cross-store editions merged) |
 | **write**  | `write.py` | `books.csv` | `README.md` |
 | **pages**  | `pages.py` | `books.csv`, `series.csv` | `data.json`, `html.md`, `year/*.md` |
 
@@ -86,16 +87,20 @@ the `README.md` calendar. You can also run it standalone
 | `corrections.csv` | `parse.py` | Optional `code,date` date fixes (code = catalog number or UPC), for releases whose only street date is unparseable prose. |
 
 ### Per-source data/cache — owned by one source module
-MediaOCD needs none: its Store API returns the whole catalogue in one paginated
-JSON pull, so each run rebuilds the source's rows from the live feed. Future
-per-source skip-caches (heavier stores) would live here.
+| File | Owner | Notes |
+|------|-------|-------|
+| `sentai.csv` | `source/sentai.py` | Skip-cache of resolved product-page release dates (`link,date`). Sentai's products.json omits the street date, so each run scrapes a budgeted batch of product pages and persists them here; back-catalogue fills over runs. |
+
+MediaOCD and AllTheAnime need no cache: their feeds return everything in one
+paginated pull (dates included), so each run rebuilds their rows from the live
+feed.
 
 ### Code
 | Path | Purpose |
 |------|---------|
 | `lnrelease/lnrelease.py` | Pipeline entry point (scrape→tag→parse→write→pages). |
 | `lnrelease/scrape.py`, `parse.py`, `tag.py`, `write.py`, `pages.py` | Pipeline stages. |
-| `lnrelease/source/*.py` | One module per **release source**. Currently `mediaocd.py` (WooCommerce Store API). |
+| `lnrelease/source/*.py` | One module per **release source**: `mediaocd.py` (WooCommerce), `sentai.py` and `alltheanime.py` (Shopify products.json). |
 | `lnrelease/publisher/__init__.py` | Generic release→Book normalizer (inherited manga volume-parser, used as the fallback for every anime distributor). |
 | `lnrelease/store/*.py` | Per-storefront URL identity helpers (inherited; MediaOCD routes to `_default`). |
 | `lnrelease/session.py`, `utils.py` | HTTP session (robots-aware) and shared types/helpers (incl. `extract_release_date`). |

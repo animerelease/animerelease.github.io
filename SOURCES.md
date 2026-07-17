@@ -7,18 +7,20 @@ Priority order for scraper implementation. Endpoints below were probed live on 2
 ### 1. MediaOCD (Discotek, AnimEigo, Sentai discs, Media Blasters)
 - **Endpoint:** `https://mediaocd.com/wp-json/wc/store/v1/products` (WooCommerce Store API, no key)
 - **Verified:** returns full JSON. Prices in minor units (`"7995"` = $79.95). `sku` is an internal code (e.g. `ES459`), **not** a UPC. `brands[].name` = distributor (e.g. Discotek). `categories` include Anime / Blu-ray / Pre-Orders. Release timing sometimes only in `short_description` prose ("Expected in mid-August") — parse defensively.
-- Scraper: `lnrelease/source/mediaocd.py`
+- **Status: BUILT** — `lnrelease/source/mediaocd.py` (pass 1). ~299 anime rows.
 
 ### 2. Sentai Filmworks — direct store
 - **Endpoint:** `https://www.sentaifilmworks.com/products.json` (Shopify, keyless, paginated)
 - ⚠️ **NOT `shopsentai.com`** — that domain is dead/empty. The kickoff plan's URL is stale.
 - **Verified:** works. Gold: the product `handle` is prefixed with the **UPC** (e.g. `816726029245-my-mental-choices-…`). `vendor: Sentai`, `product_type: Video`, variant `option1` = format (Blu-ray/DVD), tags carry SteelBook / Limited Edition / sub/dub. `sku` = Sentai catalog number (`SFB-MMC110`).
 - Overlaps with MediaOCD's Sentai items → dedupe by UPC (Sentai side) + title/distributor match (MediaOCD side has no UPC).
+- **Status: BUILT** — `lnrelease/source/sentai.py` (pass 2). ~382 rows, ~95% with UPC. The street date is **not** in products.json; it is scraped from each product page (`<span class="releasedate">`) into a `sentai.csv` skip-cache within a per-run `SENTAI_DATE_SECONDS` budget, pre-orders first. The MediaOCD/Sentai overlap (~38 titles) merges correctly, keeping the Sentai UPC.
 
 ### 3. AllTheAnime (Anime Limited, UK)
 - **Endpoint:** `https://alltheanime.com/products.json` (Shopify, keyless)
 - **Verified:** works. `vendor` includes **both** `Anime Limited` and `Crunchyroll` (UK CR releases!). `sku` = UK catalog number (`ANI1207`, `UKCR0347`). Prices GBP; **Region B**; release date/BBFC/discs only inside `body_html` prose — needs HTML parsing. No barcode/UPC in public Shopify JSON.
 - June manga notes rejected it (discs only) → **valid here** for UK coverage, and partially mitigates the Crunchyroll gap (UK editions only — different UPCs/dates than NA).
+- **Status: BUILT** — `lnrelease/source/alltheanime.py` (pass 2). ~1569 rows, ~93% dated from `body_html` (`Release Date: dd/mm/yyyy`, UK day-first), region defaults to B, `product_type` gives format/edition. Vendor `Crunchyroll` yields ~150 UK CR editions. Kept as a distinct **Region-B/UK market** — never merges with an NA release of the same title.
 
 ## Parked — Crunchyroll store ⚠️
 
@@ -47,3 +49,32 @@ Priority order for scraper implementation. Endpoints below were probed live on 2
 - **UPC/EAN:** primary key where available (Sentai handles). MediaOCD + AllTheAnime don't expose it → schema must allow null UPC + catalog number (`ES459`, `SFB-MMC110`, `ANI1207`, `UKCR0347`).
 - **Region column** (A/B, or market US/UK) — needed now that AllTheAnime is Tier 1.
 - Release dates sometimes prose-only (`short_description` / `body_html`) → shared date-extraction helper.
+
+## Cross-store merge (pass 2)
+
+`parse.merge_editions` unions rows sharing a UPC, a normalized catalog code, or
+`(normalized title, format, region-market, edition)`, then keeps one row per
+cluster — preferring a real date and a real UPC and enriching those fields in
+place. A MediaOCD row (no UPC) thus inherits the Sentai UPC of the same disc,
+and a UK/Region-B edition never merges with its NA counterpart. `region_market`
+buckets B/2/PAL → UK, region-free (A/B, Free) → its own bucket, everything else
+→ NA. `Book`/`Release` identity includes region + edition so distinct editions
+don't collide in the CSV set before the merge runs.
+
+## Date coverage (date-gap investigation, pass 2)
+
+After pass 2, **~68% of rows carry a real date** (up from ~12% MediaOCD-only):
+AllTheAnime `body_html` dates ~93% of its rows, Sentai product-page dates fill
+in over runs, and the merge propagates a store's date onto its no-date twin.
+
+**MediaOCD back-catalogue has no recoverable street date.** Probed the product
+permalink pages (2026-07-17): no JSON-LD `releaseDate`/`availabilityStarts`, no
+"Release Date"/"Street Date" text, no prose date — the "Expected in …" line
+exists only on pre-orders (already parsed from `short_description`). So **no
+MediaOCD page-enrichment step was added**; those ~260 back-catalogue rows keep
+the `0001-01-01` sentinel.
+
+**Historical dates need an external source.** Candidate: the **ANN (Anime News
+Network) Encyclopedia XML API** (`cdn.animenewsnetwork.com/encyclopedia/api.xml`),
+which lists home-video release dates per title — a future pass could match by
+normalized title/UPC and backfill sentinels. Left as sentinels for now.
