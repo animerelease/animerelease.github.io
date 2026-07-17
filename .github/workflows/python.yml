@@ -2,15 +2,13 @@ name: python
 
 on:
   schedule:
-    # daily 05:20 UTC — fast/incremental sources
+    # daily 05:20 UTC — the MediaOCD feed is a single cheap JSON pull
     - cron: '20 5 * * *'
-    # weekly Sunday 03:00 UTC — slow sources (heavy per-request delays)
-    - cron: '0 3 * * 0'
 
   workflow_dispatch:
     inputs:
       sources:
-        description: 'Space-separated source module names (blank = daily set)'
+        description: 'Space-separated source module names (blank = all sources)'
         required: false
         default: ''
 
@@ -57,33 +55,17 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.sources }}" ]; then
             echo "list=${{ github.event.inputs.sources }}" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "0 3 * * 0" ]; then
-            echo "list=viz kodansha square_enix tokyopop dark_horse" >> "$GITHUB_OUTPUT"
           else
-            echo "list=yen_press seven_seas prh jnovel_club bookwalker crunchyroll denpa udon ablaze one_peace apple" >> "$GITHUB_OUTPUT"
+            # blank runs every registered source; MediaOCD is the only one so far
+            echo "list=mediaocd" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Run scraper
         env:
           CF_ACCOUNT: ${{ secrets.CF_ACCOUNT }}
           CF_KEY: ${{ secrets.CF_KEY }}
-          # stay under the 350-minute job cap; scrape bails cleanly if it overruns
+          # stay under the job cap; scrape bails cleanly if it overruns
           SCRAPE_TIMEOUT: '18000'
-          # VIZ historical backfill: weekly only (VIZ is in the weekly set).
-          # Walk N calendar months back per run and spend at most SECONDS on the
-          # per-run product-page (ISBN) backlog, so the cron never blows its cap.
-          # Zero on the daily run leaves the incremental path unchanged.
-          VIZ_BACKFILL_MONTHS: ${{ github.event.schedule == '0 3 * * 0' && '6' || '0' }}
-          VIZ_BACKFILL_SECONDS: ${{ github.event.schedule == '0 3 * * 0' && '1500' || '0' }}
-          # Oldest calendar month the backfill walks to (~VIZ's catalogue start).
-          # Per-run cost is capped by MONTHS/SECONDS above, so the floor only
-          # sets how many runs the walk lasts, not how long any one run takes.
-          VIZ_BACKFILL_FLOOR: '2002-01-01'
-          # Square Enix per-run budget. Must expire before SCRAPE_TIMEOUT
-          # (18000s) or scrape.py drops the unresolved future and the whole
-          # run's rows with it. 16200s = 4.5h, leaving 30min of headroom for
-          # the in-flight request (delays reach 600s) to land and save.
-          SE_BUDGET_SECONDS: '16200'
         run: |
           set -o pipefail
           python lnrelease/lnrelease.py ${{ steps.sources.outputs.list }} 2>&1 | tee run.log
