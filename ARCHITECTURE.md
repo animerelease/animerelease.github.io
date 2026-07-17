@@ -4,9 +4,16 @@ How this repository is laid out and how data flows through it. This file is
 **hand-maintained** — unlike `README.md` and most data files, nothing
 regenerates it, so it is the safe place for developer-facing notes.
 
-> Forked from [LNRelease](https://github.com/LNRelease/lnrelease.github.io),
-> the automated light-novel release calendar. This fork retargets the engine
-> at licensed English **manga / manhwa / manhua / webtoons**.
+> Forked from [LNRelease](https://github.com/LNRelease/lnrelease.github.io) via
+> the manga tracker mangarelease. This fork retargets the same engine at
+> licensed **anime physical media** (Blu-ray / DVD / 4K UHD discs). The 5-stage
+> pipeline, `session.py`, and the CSV-as-database design are unchanged; the data
+> model, sources, and taxonomy are anime-specific (see `SOURCES.md`).
+>
+> **Migration status:** MediaOCD is the only live source. Sentai Filmworks and
+> AllTheAnime are next (SOURCES.md). The `lnrelease/store/*.py` modules and much
+> of `lnrelease/publisher/__init__.py` are inherited manga-era code kept only as
+> the generic fallback path — a later pass can prune them.
 
 ## The one thing to know
 
@@ -33,11 +40,11 @@ scrape → tag → parse → write → pages
 
 | Stage | Module | Reads | Writes |
 |-------|--------|-------|--------|
-| **scrape** | `scrape.py` + `source/*.py` | source sites, per-source caches | `series.csv`, `info.csv` |
+| **scrape** | `scrape.py` + `source/*.py` | source sites (MediaOCD Store API) | `series.csv`, `info.csv` |
 | **tag**    | `tag.py`   | `origins.csv` (overrides) | taxonomy applied in-memory |
-| **parse**  | `parse.py` + `publisher/*.py` | `series.csv`, `info.csv` | `books.csv`, `artbooks.csv` |
+| **parse**  | `parse.py` + `publisher/__init__.py` | `series.csv`, `info.csv` | `books.csv` |
 | **write**  | `write.py` | `books.csv` | `README.md` |
-| **pages**  | `pages.py` | `books.csv`, `series.csv` | `data.json`, `physical.md`, `digital.md`, `html.md`, `audiobook.md`, `year/*.md` |
+| **pages**  | `pages.py` | `books.csv`, `series.csv` | `data.json`, `html.md`, `year/*.md` |
 
 The workflow then commits changed files as `github-actions[bot]` and, if
 `books.csv` changed, calls `pages.yml` to deploy the site.
@@ -61,40 +68,37 @@ the `README.md` calendar. You can also run it standalone
 | File | Written by | Notes |
 |------|-----------|-------|
 | `README.md` | `write.py` | GitHub landing page **and** current/upcoming calendar. Opened in `'w'` mode → fully truncated and rebuilt every run. Static prose must live in `write.py`'s header/footer constants (see [Editing the README](#editing-the-readme)). |
-| `books.csv` | `parse.py` | Every book release row (the main dataset). |
-| `artbooks.csv` | `parse.py` | Art books, tracked separately. |
+| `books.csv` | `parse.py` | Every disc release row (the main dataset). Columns: `serieskey,link,publisher,name,volume,format,upc,catalog,region,edition,date,origin,category`. |
 | `series.csv` | `scrape.py` | Series index. |
-| `info.csv` | `scrape.py` | Per-product info. |
+| `info.csv` | `scrape.py` | Per-product info. Columns: `serieskey,link,source,publisher,title,index,format,upc,catalog,region,edition,date,*alts`. |
 
 ### Generated output — site pages (from `pages.py`, final pipeline stage)
 | File | Notes |
 |------|-------|
-| `data.json` | Consumed by `index.html` for the interactive table. |
-| `physical.md`, `digital.md`, `html.md`, `audiobook.md` | Per-format pages linked from `index.html`. |
-| `year/*.md` | One page per calendar year (41 files). |
+| `data.json` | Consumed by `index.html` for the interactive table. Data-row indices 0–7 are stable for the table script; disc fields (catalog, region, edition) are appended at 8–10. |
+| `html.md` | Full non-JavaScript calendar (the `<noscript>` target). All discs are physical, so there is no per-format page split. |
+| `year/*.md` | One page per calendar year. |
 
 ### Hand-maintained input — safe to edit
 | File | Read by | Notes |
 |------|---------|-------|
-| `origins.csv` | `tag.py` | Taxonomy overrides: `slug,origin,category`. This is where you correct a mis-classified series (e.g. `daybreak,other,webtoon`). **Primary human-contribution surface.** |
+| `origins.csv` | `tag.py` | Taxonomy overrides: `slug,origin,category` (category = `TV`/`movie`/`OVA`/`ONA`/`special`). Correct a mis-classified series here (e.g. `akira,JP,movie`). **Primary human-contribution surface.** |
+| `corrections.csv` | `parse.py` | Optional `code,date` date fixes (code = catalog number or UPC), for releases whose only street date is unparseable prose. |
 
 ### Per-source data/cache — owned by one source module
-| File | Owner |
-|------|-------|
-| `viz.csv` | `source/viz.py` |
-| `yen_press.csv` | `source/yen_press.py` |
-| `one_peace.csv` | `source/one_peace.py` (currently empty) |
-| `bookwalker.csv` | `source/bookwalker.py` (currently empty) |
+MediaOCD needs none: its Store API returns the whole catalogue in one paginated
+JSON pull, so each run rebuilds the source's rows from the live feed. Future
+per-source skip-caches (heavier stores) would live here.
 
 ### Code
 | Path | Purpose |
 |------|---------|
-| `lnrelease/lnrelease.py` | Pipeline entry point (scrape→tag→parse→write). |
+| `lnrelease/lnrelease.py` | Pipeline entry point (scrape→tag→parse→write→pages). |
 | `lnrelease/scrape.py`, `parse.py`, `tag.py`, `write.py`, `pages.py` | Pipeline stages. |
-| `lnrelease/source/*.py` | One module per **release source** (publisher storefronts, aggregators). |
-| `lnrelease/publisher/*.py` | One module per **publisher**, used by `parse.py` to normalize series. |
-| `lnrelease/store/*.py` | One module per **storefront** (Amazon, Kobo, Apple, …) for product/price lookup. |
-| `lnrelease/session.py`, `utils.py` | HTTP session (robots-aware) and shared types/helpers. |
+| `lnrelease/source/*.py` | One module per **release source**. Currently `mediaocd.py` (WooCommerce Store API). |
+| `lnrelease/publisher/__init__.py` | Generic release→Book normalizer (inherited manga volume-parser, used as the fallback for every anime distributor). |
+| `lnrelease/store/*.py` | Per-storefront URL identity helpers (inherited; MediaOCD routes to `_default`). |
+| `lnrelease/session.py`, `utils.py` | HTTP session (robots-aware) and shared types/helpers (incl. `extract_release_date`). |
 
 ### Site infrastructure (Jekyll)
 | Path | Purpose |

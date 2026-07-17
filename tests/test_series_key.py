@@ -1,72 +1,59 @@
-"""Scraper-side series-key canonicalization (AUDIT task 5c).
+"""Series-key canonicalization for the anime disc model.
 
-The series key is generated in Series.__post_init__ at scrape time, so a key
-that leaks a volume marker is recreated on every full re-scrape -- the in-data
-merge of loreolympusvolumeN was only a migration, not a fix. The SERIES strip
-must drop volume markers whether the volume is a digit ("Vol. 1") or a spelled
-word ("Volume One"), so "Lore Olympus: Volume Nine" and "Lore Olympus" collapse
-to one key.
+The series key is generated in Series.__post_init__ at scrape time. For anime it
+must drop the trailing disc-format/edition token a store appends to a product
+name, so a title's Blu-ray and DVD editions collapse to one series key, and it
+must derive the release category (TV / movie / OVA) from title markers.
 """
-from utils import Series
+from utils import Series, category_marker
 
 
 def key(title: str) -> str:
     return Series(None, title).key
 
 
-class TestDigitVolumesStripped:
-    """Baseline: the digit case already worked; guard against regressing it."""
+class TestDiscSuffixStripped:
+    def test_bluray_suffix(self):
+        assert key('Kekkaishi: The Complete Series - Blu-ray') == 'kekkaishithecompleteseries'
 
-    def test_vol_dot_number(self):
-        assert key('Solo Leveling, Vol. 1') == 'sololeveling'
+    def test_dvd_suffix(self):
+        assert key('Kekkaishi: The Complete Series - DVD') == 'kekkaishithecompleteseries'
 
-    def test_volume_number(self):
-        assert key('Some Series Volume 3') == 'someseries'
+    def test_bluray_and_dvd_collapse(self):
+        # the whole point: two disc editions of one title are one series
+        assert key('Wicked City – Blu-ray') == key('Wicked City – DVD')
 
-    def test_bare_series(self):
-        assert key('Lore Olympus') == 'loreolympus'
+    def test_4k_uhd_paren_suffix(self):
+        assert key('Akira (4K UHD)') == 'akira'
 
-
-class TestWordNumberVolumesStripped:
-    """The bug: spelled-out volume numbers leaked into the key."""
-
-    def test_lore_olympus_word_volume(self):
-        assert key('Lore Olympus: Volume Nine') == 'loreolympus'
-        assert key('Lore Olympus: Volume Ten') == 'loreolympus'
-
-    def test_viral_hit_word_volume(self):
-        assert key('Viral Hit: Volume One') == 'viralhit'
-
-    def test_flight_word_volume(self):
-        assert key('Flight Volume Eight') == 'flight'
-
-    def test_age_matters_all_collapse(self):
-        assert key('Age Matters Volume One') == 'agematters'
-        assert key('Age Matters Volume Two') == 'agematters'
-        assert key('Age Matters Volume One') == key('Age Matters Volume Two')
-
-    def test_boyfriends_period_word_volume(self):
-        assert key('Boyfriends. Volume Four') == 'boyfriends'
-
-    def test_word_and_digit_collapse_together(self):
-        # a series shipping some volumes numbered, some spelled, is one series
-        assert key('Lore Olympus: Volume Nine') == key('Lore Olympus Volume 9')
+    def test_bare_title_unchanged(self):
+        assert key('Cowboy Bebop') == 'cowboybebop'
 
 
-class TestWordNumberFalsePositives:
-    """Only strip a spelled number that is actually the volume token."""
+class TestCategoryMarker:
+    def test_the_movie_subtitle(self):
+        assert category_marker('Adieu Galaxy Express 999: The Movie') == 'movie'
 
-    def test_word_in_title_not_stripped(self):
-        # "One" as a title word, not a volume marker, must survive
-        assert key('One Piece') == 'onepiece'
-        assert key('Chapter One') == 'chapterone'
+    def test_paren_movie(self):
+        assert category_marker('Some Title (Movie)') == 'movie'
 
-    def test_oneshot_boundary(self):
-        # "Volume Oneshot" is not "Volume One" + "shot"
-        assert key('Weird Volume Oneshot') == 'weirdvolumeoneshot'
+    def test_ova(self):
+        assert category_marker('Kiss x Sis: The Complete OVA Series') == 'OVA'
 
-    def test_numeric_part_subtitle_unaffected(self):
-        # a numeric volume with a spelled "Part" subtitle keeps prior behaviour:
-        # the numeric volume is stripped, the Part subtitle is not treated as
-        # the volume (regression guard, matches pre-fix output)
-        assert key('Black Hammer Volume 7: Reborn Part Three') == 'blackhammerrebornpartthree'
+    def test_ona(self):
+        assert category_marker('Some Title ONA Collection') == 'ONA'
+
+    def test_no_marker_is_blank(self):
+        # a plain TV series has no marker; the TV default is applied at output
+        assert category_marker('Vinland Saga Season 1 Complete Collection') == ''
+
+    def test_movie_word_not_matched_outside_brackets(self):
+        # a bare "movie" mid-title is too weak a signal to categorize on
+        assert category_marker('The Movie Buff Diaries') == ''
+
+
+class TestSeriesCategorySet:
+    def test_series_picks_up_marker_category(self):
+        s = Series(None, 'Adieu Galaxy Express 999: The Movie – Blu-ray')
+        assert s.category == 'movie'
+        assert s.title == 'Adieu Galaxy Express 999: The Movie'
