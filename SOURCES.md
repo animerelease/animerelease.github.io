@@ -22,6 +22,18 @@ Priority order for scraper implementation. Endpoints below were probed live on 2
 - June manga notes rejected it (discs only) → **valid here** for UK coverage, and partially mitigates the Crunchyroll gap (UK editions only — different UPCs/dates than NA).
 - **Status: BUILT** — `lnrelease/source/alltheanime.py` (pass 2). ~1569 rows, ~93% dated from `body_html` (`Release Date: dd/mm/yyyy`, UK day-first), region defaults to B, `product_type` gives format/edition. Vendor `Crunchyroll` yields ~150 UK CR editions. Kept as a distinct **Region-B/UK market** — never merges with an NA release of the same title.
 
+### 4. Sugoi Shop (Sugoi Co, AU/NZ) — NOT BUILT YET
+- **Endpoint:** `https://sugoi.shop/products.json` (Shopify, keyless) — verified live 2026-07-17.
+- Sugoi Co = the AU/NZ anime distributor founded 2023 by ex-Madman Anime people (incl. co-founder Tim Anderson) after the Aniplex/Crunchyroll takeover. Their shop carries their disc releases (e.g. Cyberpunk Edgerunners CE, Colorful Stage movie CE).
+- ⚠️ Quirks: `product_type` is `"DVD"` even for Blu-ray collector's editions — derive format from **collection membership** (`/collections/blu-ray/`, `/collections/dvd/`, `/collections/blu-ray-4k/`, `/collections/pre-order-dvd-blu-ray/`) or title, not product_type. `vendor` = "Sugoi Shop" (not distributor). `sku` internal (`SV…`), no UPC. No street date in feed — pre-order collection + page check needed.
+- **This adds the third English market: AU/NZ** (alongside NA and UK).
+
+## Australia market notes (2026-07-17)
+
+- **Madman no longer does anime.** Madman Anime Group sold to Aniplex (2019) → renamed Crunchyroll Pty Ltd (2022) → store became **Crunchyroll Store Australia** (Jan 2023). Madman's own `shop.madman.com.au` (Shopify, feed works) is films-only — zero anime/manga collections, confirmed via collections.json.
+- **Crunchyroll Store AU** (`crunchyroll.com.au`): probe returned empty (custom/legacy platform, not Shopify). Same ownership as the paywalling US store — treat with the same caution. Candidate only.
+- ⚠️ **Market must come from the source store, not the disc region:** UK and AU are both Region B. AllTheAnime→UK, Sugoi→AU/NZ, US stores→NA. The current `region_market` heuristic (B→UK) breaks the moment Sugoi lands — fix it as part of that pass.
+
 ## Parked — Crunchyroll store ⚠️
 
 **Do not build crunchyroll.py adaptation now.** Announced 2026-07-14:
