@@ -69,8 +69,6 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Aug 17|[Mobile Suit Gundam SEED Freedom 4K UHD + Blu-ray Collector's Edition](https://alltheanime.com/products/mobile-suit-gundam-seed-freedom-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Aug 17|[NARUTO Shippuden - Blu-ray Collector's Edition Set 2](https://alltheanime.com/products/naruto-shippuden-blu-ray-collectors-edition-set-2 "Anime Limited")|1|Anime Limited|Blu-ray|
 |Aug 17|[The Girl Who Leapt Through Time 4K UHD + Blu-ray + CD Deluxe Edition](https://alltheanime.com/products/the-girl-who-leapt-through-time-deluxe-edition "Anime Limited")|1|Anime Limited|4K UHD|
-|Aug 17|[Undead Unluck Part 1 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Aug 17|[Undead Unluck Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
 |Aug 18|[Girls und Panzer: This is the Real Anzio Battle!](https://www.sentaifilmworks.com/products/816726028774-girls-und-panzer-this-is-the-real-anzio-battle-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Aug 24|[Dr. STONE: SCIENCE FUTURE - Season 4 Part 1 - Blu-ray](https://alltheanime.com/products/dr-stone-science-future-season-4-part-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Aug 24|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-1-collectors-edition "MVM")|1|MVM|Blu-ray|
@@ -86,6 +84,8 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Aug 31|[Gurren Lagann the Movie 4K UHD + Blu-ray Collector's Edition](https://alltheanime.com/products/gurren-lagann-the-movie-4k-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Aug 31|[HAIKYU!! Season 3 - Blu-ray](https://alltheanime.com/products/haikyu-season-3-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Aug 31|[Rent-a-Girlfriend Season 4 - Blu-ray](https://alltheanime.com/products/rent-a-girlfriend-season-4-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Aug 31|[Undead Unluck Part 1 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
+|Aug 31|[Undead Unluck Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
 
 ### September
 
@@ -95,11 +95,11 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Sep 07|[SAKAMOTO DAYS Season 1 Part 1 - Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-1-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Sep 07|[SAKAMOTO DAYS Season 1 Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-1-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
 |Sep 08|[My Gift Lvl 9999 Unlimited Gacha (Season 1) Collection](https://www.sentaifilmworks.com/products/816726026275-my-gift-lvl-9999-unlimited-gacha-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Sep 14|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Sep 15|[SHIROBAKO Complete TV Series](https://www.sentaifilmworks.com/products/816726028972-shirobako-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Sep 21|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-2-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Sep 22|[The Dangers in My Heart (Season 2) Limited Edition SteelBook](https://www.sentaifilmworks.com/products/816726028071-the-dangers-in-my-heart-season-2-steelbook-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Sep 28|[Sailor Moon R - Season 2 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-2-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Sep 28|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Sep 29|[Revue Starlight: Curtain Call (TV + Movie) Collection](https://www.sentaifilmworks.com/products/816726029078-revue-starlight-curtain-call-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 
 ### October
