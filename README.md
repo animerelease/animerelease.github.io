@@ -94,6 +94,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Sep 22|[The Dangers in My Heart (Season 2) Limited Edition SteelBook](https://www.sentaifilmworks.com/products/816726028071-the-dangers-in-my-heart-season-2-steelbook-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Sep 28|[Sailor Moon R - Season 2 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-2-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Sep 28|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
+|Sep 28|[Undead Unluck Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Sep 29|[Revue Starlight: Curtain Call (TV + Movie) Collection](https://www.sentaifilmworks.com/products/816726029078-revue-starlight-curtain-call-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 
 ### October
