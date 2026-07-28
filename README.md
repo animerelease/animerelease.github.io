@@ -29,7 +29,6 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
 |Aug 10|[My Instant Death Ability is Overpowered - Blu-ray](https://alltheanime.com/products/my-instant-death-ability-is-overpowered-blu-ray "MVM")|1|MVM|Blu-ray|
-|Aug 10|[Ragna Crimson - Collector's Edition Blu-ray](https://alltheanime.com/products/ragna-crimson-collectors-edition "MVM")|1|MVM|Blu-ray|
 |Aug 10|[Sketchbook ~full color's~](https://mediaocd.com/product/sketchbook-full-colors-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Aug 10|[The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2 - Blu-ray](https://alltheanime.com/products/the-100-girlfriends-who-really-really-really-really-really-love-you-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Aug 11|[MADE IN ABYSS (Season 1) Collection](https://www.sentaifilmworks.com/products/816726028675-made-in-abyss-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
@@ -57,15 +56,14 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Aug 15|[Tona-gura!](https://mediaocd.com/product/tona-gura-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Aug 15|[Ultimate Muscle: The Kinnikuman Legacy – SD Blu-ray](https://mediaocd.com/product/ultimate-muscle-the-kinnikuman-legacy-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Aug 15|[Unico: Double Feature](https://mediaocd.com/product/unico-double-feature-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
-|Aug 17|[Engage Kiss - Collector's Edition Blu-ray](https://alltheanime.com/products/engage-kiss-collectors-edition "MVM")|1|MVM|Blu-ray|
 |Aug 17|[How I Attended an All-Guys Mixer - Blu-ray](https://alltheanime.com/products/how-i-attended-an-all-guys-mixer-blu-ray "MVM")|1|MVM|Blu-ray|
 |Aug 17|[Mobile Suit Gundam SEED Freedom - Blu-ray](https://alltheanime.com/products/mobile-suit-gundam-seed-freedom-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Aug 17|[Mobile Suit Gundam SEED Freedom 4K UHD + Blu-ray Collector's Edition](https://alltheanime.com/products/mobile-suit-gundam-seed-freedom-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Aug 17|[NARUTO Shippuden - Blu-ray Collector's Edition Set 2](https://alltheanime.com/products/naruto-shippuden-blu-ray-collectors-edition-set-2 "Anime Limited")|1|Anime Limited|Blu-ray|
+|Aug 17|[Ragna Crimson - Collector's Edition Blu-ray](https://alltheanime.com/products/ragna-crimson-collectors-edition "MVM")|1|MVM|Blu-ray|
 |Aug 17|[The Girl Who Leapt Through Time 4K UHD + Blu-ray + CD Deluxe Edition](https://alltheanime.com/products/the-girl-who-leapt-through-time-deluxe-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Aug 18|[Girls und Panzer: This is the Real Anzio Battle!](https://www.sentaifilmworks.com/products/816726028774-girls-und-panzer-this-is-the-real-anzio-battle-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Aug 24|[Dr. STONE: SCIENCE FUTURE - Season 4 Part 1 - Blu-ray](https://alltheanime.com/products/dr-stone-science-future-season-4-part-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Aug 24|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-1-collectors-edition "MVM")|1|MVM|Blu-ray|
 |Aug 24|[Sailor Moon - Season 1 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-1-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Aug 25|[Digimon Tamers: Season 3 Collection (English Language Version)](https://mediaocd.com/product/digimon-tamers-season-3-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Aug 25|[Hana Yori Dango: The Complete Animated TV Series – SD Blu-ray](https://mediaocd.com/product/hana-yori-dango-the-complete-animated-tv-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
@@ -86,10 +84,12 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
 |Sep 01|[Is It Wrong to Try to Pick Up Girls in a Dungeon? Arrow of the Orion](https://www.sentaifilmworks.com/products/816726028873-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-arrow-of-the-orion-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
+|Sep 07|[Engage Kiss - Collector's Edition Blu-ray](https://alltheanime.com/products/engage-kiss-collectors-edition "MVM")|1|MVM|Blu-ray|
 |Sep 07|[SAKAMOTO DAYS Season 1 Part 1 - Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-1-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Sep 07|[SAKAMOTO DAYS Season 1 Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-1-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
 |Sep 08|[My Gift Lvl 9999 Unlimited Gacha (Season 1) Collection](https://www.sentaifilmworks.com/products/816726026275-my-gift-lvl-9999-unlimited-gacha-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Sep 15|[SHIROBAKO Complete TV Series](https://www.sentaifilmworks.com/products/816726028972-shirobako-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Sep 21|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-1-collectors-edition "MVM")|1|MVM|Blu-ray|
 |Sep 21|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-2-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Sep 22|[The Dangers in My Heart (Season 2) Limited Edition SteelBook](https://www.sentaifilmworks.com/products/816726028071-the-dangers-in-my-heart-season-2-steelbook-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Sep 28|[Sailor Moon R - Season 2 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-2-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
@@ -110,6 +110,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
+|Nov 10|[Sakon the Ventriloquist – SD Blu-ray](https://mediaocd.com/product/sakon-the-ventriloquist-sd-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Nov 30|[Sailor Moon Super S - Season 4 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-super-s-season-4-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 
 
