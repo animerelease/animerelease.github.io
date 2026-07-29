@@ -35,7 +35,6 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
 |Aug 10|[My Instant Death Ability is Overpowered - Blu-ray](https://alltheanime.com/products/my-instant-death-ability-is-overpowered-blu-ray "MVM")|1|MVM|Blu-ray|
-|Aug 10|[Sketchbook ~full color's~](https://mediaocd.com/product/sketchbook-full-colors-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Aug 10|[The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2 - Blu-ray](https://alltheanime.com/products/the-100-girlfriends-who-really-really-really-really-really-love-you-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Aug 11|[MADE IN ABYSS (Season 1) Collection](https://www.sentaifilmworks.com/products/816726028675-made-in-abyss-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Aug 15|[God Mazinger: The Complete Collection – SD Blu-ray](https://mediaocd.com/product/god-mazinger-the-complete-collection-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
