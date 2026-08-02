@@ -112,6 +112,12 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Oct 26|[Sailor Moon S - Season 3 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-3-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
+|Oct 27|[Big O: The Complete Paradigm](https://mediaocd.com/product/big-o-the-complete-paradigm-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 27|[Digimon: Season 4 Frontier (English Language Version)](https://mediaocd.com/product/digimon-season-4-frontier-english-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 27|[Lupin the 3rd: Part II – SD Blu-ray](https://mediaocd.com/product/lupin-the-3rd-part-ii-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 27|[Outlanders](https://mediaocd.com/product/outlanders-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 27|[Penguindrum](https://mediaocd.com/product/penguindrum-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 27|[Toradora!: The Complete Series](https://mediaocd.com/product/toradora-the-complete-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 
 ### November
 
