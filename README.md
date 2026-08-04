@@ -105,6 +105,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
+|Oct 05|[My Isekai Life - Blu-ray](https://alltheanime.com/products/my-isekai-life-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 11|[Vampire Princess Miyu OVA – Blu-ray – EXCLUSIVE!](https://mediaocd.com/product/vampire-princess-miyu-ova-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Oct 12|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 13|[Master of Martial Hearts](https://mediaocd.com/product/master-of-martial-hearts-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
