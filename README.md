@@ -98,6 +98,8 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Sep 22|[The Dangers in My Heart (Season 2) Limited Edition SteelBook](https://www.sentaifilmworks.com/products/816726028071-the-dangers-in-my-heart-season-2-steelbook-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Sep 28|[2.5 Dimensional Seduction Collector's Edition Blu-ray](https://alltheanime.com/products/2-5-dimensional-seduction-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Sep 28|[Black Butler - Emerald Witch Arc (Season 4) - Blu-ray](https://alltheanime.com/products/black-butler-emerald-witch-arc-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Sep 28|[Her Blue Sky - Blu-ray](https://alltheanime.com/products/her-blue-sky-blu-ray "Anime Limited")|1|Anime Limited|Multi|
+|Sep 28|[Her Blue Sky 4K UHD + Blu-ray + DVD Collector's Edition](https://alltheanime.com/products/her-blue-sky-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Sep 28|[Sailor Moon R - Season 2 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-2-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Sep 29|[Revue Starlight: Curtain Call (TV + Movie) Collection](https://www.sentaifilmworks.com/products/816726029078-revue-starlight-curtain-call-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 
