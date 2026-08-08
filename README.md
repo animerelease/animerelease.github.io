@@ -4,26 +4,6 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 
 ## 2026
 
-### July
-
-|Date|Title|Vol|Distributor|Format|
-|:---:|---|:---:|---|:---:|
-|Jul 07|[Food Wars! (Season 2) The Second Plate Limited Edition SteelBook](https://www.sentaifilmworks.com/products/816726027975-food-wars-season-2-the-second-plate-limited-edition-steelbook-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Jul 13|[BLEACH: Thousand-Year Blood War Part 3 - Blu-ray](https://alltheanime.com/products/bleach-thousand-year-blood-war-part-3-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Jul 13|[BLEACH: Thousand-Year Blood War Part 3 - Blu-ray Collector's Edition](https://alltheanime.com/products/bleach-thousand-year-blood-war-part-3-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
-|Jul 13|[I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths! - Blu-ray](https://alltheanime.com/products/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Jul 14|[KAKEGURUI (Seasons 1 & 2) Collection](https://www.sentaifilmworks.com/products/816726028170-kakegurui-seasons-1-and-2-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Jul 20|[Labyrinth - Blu-ray](https://alltheanime.com/products/labyrinth-blu-ray "Anime Limited")|1|Anime Limited|Multi|
-|Jul 20|[The Dark Crystal - Blu-ray](https://alltheanime.com/products/the-dark-crystal-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Jul 20|[The Dark Crystal - DVD](https://alltheanime.com/products/the-dark-crystal-dvd "Anime Limited")|2|Anime Limited|Blu-ray|
-|Jul 21|[Bad Girl Complete Collection](https://www.sentaifilmworks.com/products/816726025971-bad-girl-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Jul 27|[DAN DA DAN Season 2 - Blu-ray](https://alltheanime.com/products/dan-da-dan-season-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Jul 27|[DAN DA DAN Season 2 - Alien Edition - Collector's Edition Blu-ray (AllTheAnime.com exclusive)](https://alltheanime.com/products/dan-da-dan-season-2-alien-edition-collectors-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Jul 27|[DAN DA DAN Season 2 - Yokai Edition - Collector's Edition Blu-ray](https://alltheanime.com/products/dan-da-dan-season-2-yokai-edition-collectors-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Jul 27|[Labyrinth 4K UHD + Blu-ray Collector's Edition](https://alltheanime.com/products/labyrinth-collectors-edition "Anime Limited")|2|Anime Limited|4K UHD|
-|Jul 27|[The Dark Crystal 4K UHD + Blu-ray Collector's Edition](https://alltheanime.com/products/the-dark-crystal-collectors-edition "Anime Limited")|2|Anime Limited|4K UHD|
-|Jul 28|[Girls' Last Tour Complete Collection](https://www.sentaifilmworks.com/products/816726028378-girls-last-tour-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-
 ### August
 
 |Date|Title|Vol|Distributor|Format|
