@@ -94,6 +94,7 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
 |Oct 05|[My Isekai Life - Blu-ray](https://alltheanime.com/products/my-isekai-life-blu-ray "MVM")|1|MVM|Blu-ray|
+|Oct 11|[Vampire Princess Miyu OVA – Blu-ray – EXCLUSIVE!](https://mediaocd.com/product/vampire-princess-miyu-ova-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Oct 12|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 13|[Master of Martial Hearts](https://mediaocd.com/product/master-of-martial-hearts-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Oct 19|[Kaiju No. 8: Mission Recon - Limited Edition SteelBook](https://alltheanime.com/products/kaiju-no-8-mission-recon-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
@@ -123,3 +124,9 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
 |Jan 11|[Sailor Moon Sailor Stars - Season 5 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-sailor-stars-season-5-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+
+### May
+
+|Date|Title|Vol|Distributor|Format|
+|:---:|---|:---:|---|:---:|
+|May 15|[Urusei Yatsura: Always My Darling](https://mediaocd.com/product/urusei-yatsura-always-my-darling-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
