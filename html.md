@@ -77,7 +77,31 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Sep 14|[Management of a Novice Alchemist - Blu-ray](https://alltheanime.com/products/management-of-a-novice-alchemist-blu-ray "MVM")|1|MVM|Blu-ray|
 |Sep 14|[My Hero Academia: Vigilantes Season 1 - Blu-ray](https://alltheanime.com/products/my-hero-academia-vigilantes-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Sep 14|[Reborn as a Vending Machine, I Now Wander the Dungeon Season 2 - Blu-ray](https://alltheanime.com/products/reborn-as-a-vending-machine-i-now-wander-the-dungeon-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Sep 15|[City Hunter 3: The Complete Third Series](https://mediaocd.com/product/city-hunter-3-the-complete-third-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[GTO: Great Teacher Onizuka – Complete Collection – SD Blu-ray](https://mediaocd.com/product/gto-great-teacher-onizuka-complete-collection-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Humanoid Monster Bem: Original Animated TV Series](https://mediaocd.com/product/humanoid-monster-bem-original-animated-tv-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[IGPX: Immortal Grand Prix – The Complete Stage](https://mediaocd.com/product/igpx-immortal-grand-prix-the-complete-stage-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Kashimashi: Girl Meets Girl](https://mediaocd.com/product/kashimashi-girl-meets-girl-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Kite: Integral Version](https://mediaocd.com/product/kite-integral-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Kyo Kara Maoh! R: The Complete OVA Collection](https://mediaocd.com/product/kyo-kara-maoh-r-the-complete-ova-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Kyo Kara Maoh!: Season 3](https://mediaocd.com/product/kyo-kara-maoh-season-3-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Kyo Kara Maoh!: The Complete First Season](https://mediaocd.com/product/kyo-kara-maoh-the-complete-first-season-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Kyo Kara Maoh!: The Complete Second Season](https://mediaocd.com/product/kyo-kara-maoh-the-complete-second-season-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Lupin III: The Castle of Cagliostro](https://mediaocd.com/product/lupin-iii-the-castle-of-cagliostro-steelbook-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Lupin the Third vs. Detective Conan: The Movie](https://mediaocd.com/product/lupin-the-third-vs-detective-conan-the-movie-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Lupin the Third vs. Detective Conan: The Special](https://mediaocd.com/product/lupin-the-third-vs-detective-conan-the-special-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Magical Girl Lyrical Nanoha: A's](https://mediaocd.com/product/magical-girl-lyrical-nanoha-as-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Magical Girl Lyrical Nanoha: Detonation](https://mediaocd.com/product/magical-girl-lyrical-nanoha-detonation-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Magical Girl Lyrical Nanoha: Reflection](https://mediaocd.com/product/magical-girl-lyrical-nanoha-reflection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Magical Girl Lyrical Nanoha (Season 1)](https://mediaocd.com/product/magical-girl-lyrical-nanoha-season-1-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Mazinger Edition Z: The Impact! – The Complete Series](https://mediaocd.com/product/mazinger-edition-z-the-impact-the-complete-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Mazinkaiser VS Great General of Darkness](https://mediaocd.com/product/mazinkaiser-vs-great-general-of-darkness-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Ninja Robots Tobikage: The Complete Series](https://mediaocd.com/product/ninja-robots-tobikage-the-complete-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Ninja Scroll: The Series](https://mediaocd.com/product/ninja-scroll-the-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 15|[Reborn!: Special Fan Disc](https://mediaocd.com/product/reborn-special-fan-disc-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Sep 15|[SHIROBAKO Complete TV Series](https://www.sentaifilmworks.com/products/816726028972-shirobako-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Sep 15|[Space Adventure Cobra: The Movie](https://mediaocd.com/product/space-adventure-cobra-the-movie-4k-uhd/ "Discotek")|1|Discotek|4K UHD|
+|Sep 15|[Treasure Island: The 1978 Animated Series Collection](https://mediaocd.com/product/treasure-island-the-1978-animated-series-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Sep 21|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-1-collectors-edition "MVM")|1|MVM|Blu-ray|
 |Sep 21|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-2-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Sep 21|[HAIKYU!! TO THE TOP Season 4 - Blu-ray](https://alltheanime.com/products/haikyu-to-the-top-season-4-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
