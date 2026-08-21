@@ -51,7 +51,6 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Sep 07|[Miss Kobayashi's Dragon Maid: A Lonely Dragon Wants To Be Loved - Blu-ray](https://alltheanime.com/products/miss-kobayashis-dragon-maid-a-lonely-dragon-wants-to-be-loved-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Sep 07|[SAKAMOTO DAYS Season 1 Part 1 - Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-1-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Sep 07|[SAKAMOTO DAYS Season 1 Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-1-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
-|Sep 08|[My Gift Lvl 9999 Unlimited Gacha (Season 1) Collection](https://www.sentaifilmworks.com/products/816726026275-my-gift-lvl-9999-unlimited-gacha-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Sep 14|[Management of a Novice Alchemist - Blu-ray](https://alltheanime.com/products/management-of-a-novice-alchemist-blu-ray "MVM")|1|MVM|Blu-ray|
 |Sep 14|[My Hero Academia: Vigilantes Season 1 - Blu-ray](https://alltheanime.com/products/my-hero-academia-vigilantes-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Sep 14|[Reborn as a Vending Machine, I Now Wander the Dungeon Season 2 - Blu-ray](https://alltheanime.com/products/reborn-as-a-vending-machine-i-now-wander-the-dungeon-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
@@ -80,6 +79,7 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Sep 15|[SHIROBAKO Complete TV Series](https://www.sentaifilmworks.com/products/816726028972-shirobako-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Sep 15|[Space Adventure Cobra: The Movie](https://mediaocd.com/product/space-adventure-cobra-the-movie-4k-uhd/ "Discotek")|1|Discotek|4K UHD|
 |Sep 15|[Treasure Island: The 1978 Animated Series Collection](https://mediaocd.com/product/treasure-island-the-1978-animated-series-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Sep 21|[DEVILMAN Crybaby - Blu-ray](https://alltheanime.com/products/devilman-crybaby-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Sep 21|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-1-collectors-edition "MVM")|1|MVM|Blu-ray|
 |Sep 21|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-2-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Sep 21|[HAIKYU!! TO THE TOP Season 4 - Blu-ray](https://alltheanime.com/products/haikyu-to-the-top-season-4-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
@@ -96,18 +96,25 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
 |Oct 05|[My Isekai Life - Blu-ray](https://alltheanime.com/products/my-isekai-life-blu-ray "MVM")|1|MVM|Blu-ray|
+|Oct 06|[Devil Survivor 2: The Animation Complete Collection](https://www.sentaifilmworks.com/products/816726029276-devil-survivor-2-the-animation-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 11|[Vampire Princess Miyu OVA – Blu-ray – EXCLUSIVE!](https://mediaocd.com/product/vampire-princess-miyu-ova-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Oct 12|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
+|Oct 12|[Suzume - 4K UHD Blu-ray Steelbook](https://alltheanime.com/products/suzume-4k-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 13|[Master of Martial Hearts](https://mediaocd.com/product/master-of-martial-hearts-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
+|Oct 13|[Non Non Biyori Complete Series](https://www.sentaifilmworks.com/products/816726028477-non-non-biyori-complete-series-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 19|[Kaiju No. 8: Mission Recon - Limited Edition SteelBook](https://alltheanime.com/products/kaiju-no-8-mission-recon-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Oct 20|[Is It Wrong to Try to Pick Up Girls in a Dungeon? (Season 1 + OVA) Collection](https://www.sentaifilmworks.com/products/816726029177-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Oct 20|[Reincarnated as a Dragon Hatchling (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029870-reincarnated-as-a-dragon-hatchling-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 26|[Sailor Moon S - Season 3 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-3-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 27|[Big O: The Complete Paradigm](https://mediaocd.com/product/big-o-the-complete-paradigm-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Digimon: Season 4 Frontier (English Language Version)](https://mediaocd.com/product/digimon-season-4-frontier-english-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Lupin the 3rd Part II: The Red Jacket Adventures – SD Blu-ray](https://mediaocd.com/product/lupin-the-3rd-part-ii-the-red-jacket-adventures-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 27|[My Gift Lvl 9999 Unlimited Gacha (Season 1) Collection](https://www.sentaifilmworks.com/products/816726026275-my-gift-lvl-9999-unlimited-gacha-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 27|[Outlanders](https://mediaocd.com/product/outlanders-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Penguindrum](https://mediaocd.com/product/penguindrum-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 27|[Sword of the Demon Hunter (Season 1) Collection](https://www.sentaifilmworks.com/products/816726025773-sword-of-the-demon-hunter-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 27|[Toradora!: The Complete Series](https://mediaocd.com/product/toradora-the-complete-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 
 ### November
