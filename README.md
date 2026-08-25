@@ -21,7 +21,6 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Aug 17|[The Girl Who Leapt Through Time 4K UHD + Blu-ray + CD Deluxe Edition](https://alltheanime.com/products/the-girl-who-leapt-through-time-deluxe-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Aug 18|[Girls und Panzer: This is the Real Anzio Battle!](https://www.sentaifilmworks.com/products/816726028774-girls-und-panzer-this-is-the-real-anzio-battle-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Aug 24|[Dr. STONE: SCIENCE FUTURE - Season 4 Part 1 - Blu-ray](https://alltheanime.com/products/dr-stone-science-future-season-4-part-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Aug 24|[Sailor Moon - Season 1 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-1-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Aug 25|[Digimon Tamers: Season 3 Collection (English Language Version)](https://mediaocd.com/product/digimon-tamers-season-3-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Aug 25|[Hana Yori Dango: The Complete Animated TV Series – SD Blu-ray](https://mediaocd.com/product/hana-yori-dango-the-complete-animated-tv-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Aug 25|[Is It Wrong to Try to Pick Up Girls in a Dungeon? V Complete Collection](https://www.sentaifilmworks.com/products/816726029962-is-it-wrong-to-try-to-pick-girls-in-a-dungeon-v-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
@@ -82,7 +81,6 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Sep 28|[Black Butler - Emerald Witch Arc (Season 4) - Blu-ray](https://alltheanime.com/products/black-butler-emerald-witch-arc-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Sep 28|[Her Blue Sky - Blu-ray](https://alltheanime.com/products/her-blue-sky-blu-ray "Anime Limited")|1|Anime Limited|Multi|
 |Sep 28|[Her Blue Sky 4K UHD + Blu-ray + DVD Collector's Edition](https://alltheanime.com/products/her-blue-sky-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
-|Sep 28|[Sailor Moon R - Season 2 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-2-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Sep 29|[Revue Starlight: Curtain Call (TV + Movie) Collection](https://www.sentaifilmworks.com/products/816726029078-revue-starlight-curtain-call-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 
 ### October
@@ -99,7 +97,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Oct 19|[Kaiju No. 8: Mission Recon - Limited Edition SteelBook](https://alltheanime.com/products/kaiju-no-8-mission-recon-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 20|[Is It Wrong to Try to Pick Up Girls in a Dungeon? (Season 1 + OVA) Collection](https://www.sentaifilmworks.com/products/816726029177-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 20|[Reincarnated as a Dragon Hatchling (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029870-reincarnated-as-a-dragon-hatchling-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Oct 26|[Sailor Moon S - Season 3 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-3-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Oct 26|[Sailor Moon - Season 1 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-1-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 27|[Big O: The Complete Paradigm](https://mediaocd.com/product/big-o-the-complete-paradigm-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
@@ -117,7 +115,14 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |:---:|---|:---:|---|:---:|
 |Nov 02|[Godzilla Minus One 4K UHD + Blu-ray Steelbook](https://alltheanime.com/products/godzilla-minus-one-4k-uhd-blu-ray-steelbook-2026 "Anime Limited")|1|Anime Limited|4K UHD|
 |Nov 10|[Sakon the Ventriloquist – SD Blu-ray](https://mediaocd.com/product/sakon-the-ventriloquist-sd-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
-|Nov 30|[Sailor Moon Super S - Season 4 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-super-s-season-4-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Nov 30|[Sailor Moon R - Season 2 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-2-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+
+### December
+
+|Date|Title|Vol|Distributor|Format|
+|:---:|---|:---:|---|:---:|
+|Dec 15|[Drucker in the Dugout](https://mediaocd.com/product/drucker-in-the-dugout-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
+|Dec 28|[Sailor Moon S - Season 3 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-3-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 
 
 ## 2027
@@ -126,7 +131,13 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
-|Jan 11|[Sailor Moon Sailor Stars - Season 5 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-sailor-stars-season-5-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Jan 25|[Sailor Moon Super S - Season 4 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-super-s-season-4-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+
+### February
+
+|Date|Title|Vol|Distributor|Format|
+|:---:|---|:---:|---|:---:|
+|Feb 22|[Sailor Moon Sailor Stars - Season 5 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-sailor-stars-season-5-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 
 ### May
 
