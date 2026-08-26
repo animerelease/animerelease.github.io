@@ -27,13 +27,8 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Aug 17|[The Girl Who Leapt Through Time 4K UHD + Blu-ray + CD Deluxe Edition](https://alltheanime.com/products/the-girl-who-leapt-through-time-deluxe-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Aug 18|[Girls und Panzer: This is the Real Anzio Battle!](https://www.sentaifilmworks.com/products/816726028774-girls-und-panzer-this-is-the-real-anzio-battle-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Aug 24|[Dr. STONE: SCIENCE FUTURE - Season 4 Part 1 - Blu-ray](https://alltheanime.com/products/dr-stone-science-future-season-4-part-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Aug 25|[Digimon Tamers: Season 3 Collection (English Language Version)](https://mediaocd.com/product/digimon-tamers-season-3-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
-|Aug 25|[Hana Yori Dango: The Complete Animated TV Series – SD Blu-ray](https://mediaocd.com/product/hana-yori-dango-the-complete-animated-tv-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Aug 25|[Is It Wrong to Try to Pick Up Girls in a Dungeon? V Complete Collection](https://www.sentaifilmworks.com/products/816726029962-is-it-wrong-to-try-to-pick-girls-in-a-dungeon-v-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Aug 25|[Is It Wrong to Try to Pick Up Girls in a Dungeon? V Premium Box Set](https://www.sentaifilmworks.com/products/816726026572-is-it-wrong-to-try-to-pick-girls-in-a-dungeon-v-premium-box-set-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Aug 25|[Monster: TV Series Collection 1](https://mediaocd.com/product/monster-tv-series-collection-1-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
-|Aug 25|[Sgt. Frog: The Original Movies 1-5 Collection](https://mediaocd.com/product/sgt-frog-the-original-movies-1-5-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
-|Aug 25|[Zegapain: The Complete TV Series and Movies Collection](https://mediaocd.com/product/zegapain-the-complete-tv-series-and-movies-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Aug 31|[Gurren Lagann the Movie - Blu-ray](https://alltheanime.com/products/gurren-lagann-the-movie-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Aug 31|[Gurren Lagann the Movie 4K UHD + Blu-ray Collector's Edition](https://alltheanime.com/products/gurren-lagann-the-movie-4k-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Aug 31|[HAIKYU!! Season 3 - Blu-ray](https://alltheanime.com/products/haikyu-season-3-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
@@ -52,6 +47,7 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Sep 07|[SAKAMOTO DAYS Season 1 Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-1-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
 |Sep 14|[Management of a Novice Alchemist - Blu-ray](https://alltheanime.com/products/management-of-a-novice-alchemist-blu-ray "MVM")|1|MVM|Blu-ray|
 |Sep 14|[My Hero Academia: Vigilantes Season 1 - Blu-ray](https://alltheanime.com/products/my-hero-academia-vigilantes-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Sep 14|[Paprika - 4K UHD + Blu-ray Steelbook](https://alltheanime.com/products/paprika-steelbook "Sony Pictures")|1|Sony Pictures|4K UHD|
 |Sep 14|[Reborn as a Vending Machine, I Now Wander the Dungeon Season 2 - Blu-ray](https://alltheanime.com/products/reborn-as-a-vending-machine-i-now-wander-the-dungeon-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Sep 15|[City Hunter 3: The Complete Third Series](https://mediaocd.com/product/city-hunter-3-the-complete-third-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Sep 15|[GTO: Great Teacher Onizuka – Complete Collection – SD Blu-ray](https://mediaocd.com/product/gto-great-teacher-onizuka-complete-collection-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
