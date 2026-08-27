@@ -17,8 +17,6 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Aug 10|[My Instant Death Ability is Overpowered - Blu-ray](https://alltheanime.com/products/my-instant-death-ability-is-overpowered-blu-ray "MVM")|1|MVM|Blu-ray|
 |Aug 10|[The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2 - Blu-ray](https://alltheanime.com/products/the-100-girlfriends-who-really-really-really-really-really-love-you-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Aug 11|[MADE IN ABYSS (Season 1) Collection](https://www.sentaifilmworks.com/products/816726028675-made-in-abyss-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
-|Aug 15|[Go Nagai World](https://mediaocd.com/product/go-nagai-world-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
-|Aug 15|[Mazinger Z: TV Series](https://mediaocd.com/product/18585/ "Discotek")|2|Discotek|Blu-ray|
 |Aug 17|[How I Attended an All-Guys Mixer - Blu-ray](https://alltheanime.com/products/how-i-attended-an-all-guys-mixer-blu-ray "MVM")|1|MVM|Blu-ray|
 |Aug 17|[Mobile Suit Gundam SEED Freedom - Blu-ray](https://alltheanime.com/products/mobile-suit-gundam-seed-freedom-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Aug 17|[Mobile Suit Gundam SEED Freedom 4K UHD + Blu-ray Collector's Edition](https://alltheanime.com/products/mobile-suit-gundam-seed-freedom-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
