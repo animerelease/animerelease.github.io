@@ -88,14 +88,14 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
 |Oct 05|[My Isekai Life - Blu-ray](https://alltheanime.com/products/my-isekai-life-blu-ray "MVM")|1|MVM|Blu-ray|
-|Oct 06|[Devil Survivor 2: The Animation Complete Collection](https://www.sentaifilmworks.com/products/816726029276-devil-survivor-2-the-animation-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Oct 06|[Devil Survivor 2: The Animation Complete Collection](https://www.sentaifilmworks.com/products/816726029276-devil-survivor-2-the-animation-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Oct 11|[Vampire Princess Miyu OVA – Blu-ray – EXCLUSIVE!](https://mediaocd.com/product/vampire-princess-miyu-ova-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Oct 12|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 12|[Suzume - 4K UHD Blu-ray Steelbook](https://alltheanime.com/products/suzume-4k-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 13|[Master of Martial Hearts](https://mediaocd.com/product/master-of-martial-hearts-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Oct 13|[Non Non Biyori Complete Series](https://www.sentaifilmworks.com/products/816726028477-non-non-biyori-complete-series-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 19|[Kaiju No. 8: Mission Recon - Limited Edition SteelBook](https://alltheanime.com/products/kaiju-no-8-mission-recon-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Oct 20|[Is It Wrong to Try to Pick Up Girls in a Dungeon? (Season 1 + OVA) Collection](https://www.sentaifilmworks.com/products/816726029177-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Oct 20|[Is It Wrong to Try to Pick Up Girls in a Dungeon? (Season 1 + OVA) Collection](https://www.sentaifilmworks.com/products/816726029177-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Oct 20|[Reincarnated as a Dragon Hatchling (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029870-reincarnated-as-a-dragon-hatchling-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 26|[Sailor Moon - Season 1 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-1-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
@@ -103,10 +103,10 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Oct 27|[Big O: The Complete Paradigm](https://mediaocd.com/product/big-o-the-complete-paradigm-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Digimon: Season 4 Frontier (English Language Version)](https://mediaocd.com/product/digimon-season-4-frontier-english-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Lupin the 3rd Part II: The Red Jacket Adventures – SD Blu-ray](https://mediaocd.com/product/lupin-the-3rd-part-ii-the-red-jacket-adventures-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
-|Oct 27|[My Gift Lvl 9999 Unlimited Gacha (Season 1) Collection](https://www.sentaifilmworks.com/products/816726026275-my-gift-lvl-9999-unlimited-gacha-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Oct 27|[My Gift Lvl 9999 Unlimited Gacha (Season 1) Collection](https://www.sentaifilmworks.com/products/816726026275-my-gift-lvl-9999-unlimited-gacha-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Oct 27|[Outlanders](https://mediaocd.com/product/outlanders-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Penguindrum](https://mediaocd.com/product/penguindrum-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
-|Oct 27|[Sword of the Demon Hunter (Season 1) Collection](https://www.sentaifilmworks.com/products/816726025773-sword-of-the-demon-hunter-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Oct 27|[Sword of the Demon Hunter (Season 1) Collection](https://www.sentaifilmworks.com/products/816726025773-sword-of-the-demon-hunter-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Oct 27|[Toradora!: The Complete Series](https://mediaocd.com/product/toradora-the-complete-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 
 ### November
