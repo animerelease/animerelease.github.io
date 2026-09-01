@@ -32,7 +32,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
-|Sep 01|[Is It Wrong to Try to Pick Up Girls in a Dungeon? Arrow of the Orion](https://www.sentaifilmworks.com/products/816726028873-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-arrow-of-the-orion-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
+|Sep 01|[Is It Wrong to Try to Pick Up Girls in a Dungeon? Arrow of the Orion](https://www.sentaifilmworks.com/products/816726028873-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-arrow-of-the-orion-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Sep 07|[Engage Kiss - Collector's Edition Blu-ray](https://alltheanime.com/products/engage-kiss-collectors-edition "MVM")|1|MVM|Blu-ray|
 |Sep 07|[Miss Kobayashi's Dragon Maid: A Lonely Dragon Wants To Be Loved - Blu-ray](https://alltheanime.com/products/miss-kobayashis-dragon-maid-a-lonely-dragon-wants-to-be-loved-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Sep 07|[SAKAMOTO DAYS Season 1 Part 1 - Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-1-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
