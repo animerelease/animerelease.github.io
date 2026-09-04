@@ -88,14 +88,19 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Oct 06|[Devil Survivor 2: The Animation Complete Collection](https://www.sentaifilmworks.com/products/816726029276-devil-survivor-2-the-animation-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Oct 11|[Vampire Princess Miyu OVA – Blu-ray – EXCLUSIVE!](https://mediaocd.com/product/vampire-princess-miyu-ova-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Oct 12|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-1-collectors-edition "MVM")|1|MVM|Blu-ray|
+|Oct 12|[From Bureaucrat to Villainess: Dad's Been Reincarnated! - Blu-ray](https://alltheanime.com/products/from-bureaucrat-to-villainess-dads-been-reincarnated-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 12|[Suzume - 4K UHD Blu-ray Steelbook](https://alltheanime.com/products/suzume-4k-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 13|[Master of Martial Hearts](https://mediaocd.com/product/master-of-martial-hearts-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Oct 13|[Non Non Biyori Complete Series](https://www.sentaifilmworks.com/products/816726028477-non-non-biyori-complete-series-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Oct 19|[Clevatess Season 1 - Blu-ray](https://alltheanime.com/products/clevatess-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Oct 19|[I'm Living with an Otaku NEET Kunoichi!? - Blu-ray](https://alltheanime.com/products/im-living-with-an-otaku-neet-kunoichi-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 19|[Kaiju No. 8: Mission Recon - Limited Edition SteelBook](https://alltheanime.com/products/kaiju-no-8-mission-recon-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 20|[Is It Wrong to Try to Pick Up Girls in a Dungeon? (Season 1 + OVA) Collection](https://www.sentaifilmworks.com/products/816726029177-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Oct 20|[Reincarnated as a Dragon Hatchling (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029870-reincarnated-as-a-dragon-hatchling-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 26|[2.5 Dimensional Seduction Collector's Edition Blu-ray](https://alltheanime.com/products/2-5-dimensional-seduction-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
+|Oct 26|[One Piece - Collection 40 - Blu-ray](https://alltheanime.com/products/one-piece-collection-40-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 26|[Sailor Moon - Season 1 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-1-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Oct 26|[The Rising of the Shield Hero Season 4 - Blu-ray](https://alltheanime.com/products/the-rising-of-the-shield-hero-season-4-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 27|[Big O: The Complete Paradigm](https://mediaocd.com/product/big-o-the-complete-paradigm-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
@@ -114,6 +119,8 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |:---:|---|:---:|---|:---:|
 |Nov 02|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-2-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 02|[Godzilla Minus One 4K UHD + Blu-ray Steelbook](https://alltheanime.com/products/godzilla-minus-one-4k-uhd-blu-ray-steelbook-2026 "Anime Limited")|1|Anime Limited|4K UHD|
+|Nov 02|[Rock Is a Lady's Modesty - Blu-ray](https://alltheanime.com/products/rock-is-a-ladys-modesty-blu-ray "MVM")|1|MVM|Blu-ray|
+|Nov 09|[Ya Boy Kongming! Collector's Edition Blu-ray](https://alltheanime.com/products/ya-boy-kongming-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 10|[Sakon the Ventriloquist – SD Blu-ray](https://mediaocd.com/product/sakon-the-ventriloquist-sd-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Nov 23|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 30|[Sailor Moon R - Season 2 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-2-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
