@@ -10,30 +10,6 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 
 ## [2026](/year/2026)
 
-### August
-
-|Date|Title|Vol|Distributor|Format|
-|:---:|---|:---:|---|:---:|
-|Aug 10|[My Instant Death Ability is Overpowered - Blu-ray](https://alltheanime.com/products/my-instant-death-ability-is-overpowered-blu-ray "MVM")|1|MVM|Blu-ray|
-|Aug 10|[The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 2 - Blu-ray](https://alltheanime.com/products/the-100-girlfriends-who-really-really-really-really-really-love-you-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Aug 11|[MADE IN ABYSS (Season 1) Collection](https://www.sentaifilmworks.com/products/816726028675-made-in-abyss-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
-|Aug 17|[How I Attended an All-Guys Mixer - Blu-ray](https://alltheanime.com/products/how-i-attended-an-all-guys-mixer-blu-ray "MVM")|1|MVM|Blu-ray|
-|Aug 17|[Mobile Suit Gundam SEED Freedom - Blu-ray](https://alltheanime.com/products/mobile-suit-gundam-seed-freedom-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Aug 17|[Mobile Suit Gundam SEED Freedom 4K UHD + Blu-ray Collector's Edition](https://alltheanime.com/products/mobile-suit-gundam-seed-freedom-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
-|Aug 17|[NARUTO Shippuden - Blu-ray Collector's Edition Set 2](https://alltheanime.com/products/naruto-shippuden-blu-ray-collectors-edition-set-2 "Anime Limited")|1|Anime Limited|Blu-ray|
-|Aug 17|[Ragna Crimson - Collector's Edition Blu-ray](https://alltheanime.com/products/ragna-crimson-collectors-edition "MVM")|1|MVM|Blu-ray|
-|Aug 17|[The Girl Who Leapt Through Time 4K UHD + Blu-ray + CD Deluxe Edition](https://alltheanime.com/products/the-girl-who-leapt-through-time-deluxe-edition "Anime Limited")|1|Anime Limited|4K UHD|
-|Aug 18|[Girls und Panzer: This is the Real Anzio Battle!](https://www.sentaifilmworks.com/products/816726028774-girls-und-panzer-this-is-the-real-anzio-battle-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Aug 24|[Dr. STONE: SCIENCE FUTURE - Season 4 Part 1 - Blu-ray](https://alltheanime.com/products/dr-stone-science-future-season-4-part-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Aug 25|[Is It Wrong to Try to Pick Up Girls in a Dungeon? V Complete Collection](https://www.sentaifilmworks.com/products/816726029962-is-it-wrong-to-try-to-pick-girls-in-a-dungeon-v-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Aug 25|[Is It Wrong to Try to Pick Up Girls in a Dungeon? V Premium Box Set](https://www.sentaifilmworks.com/products/816726026572-is-it-wrong-to-try-to-pick-girls-in-a-dungeon-v-premium-box-set-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Aug 31|[Gurren Lagann the Movie - Blu-ray](https://alltheanime.com/products/gurren-lagann-the-movie-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Aug 31|[Gurren Lagann the Movie 4K UHD + Blu-ray Collector's Edition](https://alltheanime.com/products/gurren-lagann-the-movie-4k-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
-|Aug 31|[HAIKYU!! Season 3 - Blu-ray](https://alltheanime.com/products/haikyu-season-3-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Aug 31|[Rent-a-Girlfriend Season 4 - Blu-ray](https://alltheanime.com/products/rent-a-girlfriend-season-4-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Aug 31|[Undead Unluck Part 1 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Aug 31|[Undead Unluck Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
-
 ### September
 
 |Date|Title|Vol|Distributor|Format|
@@ -122,6 +98,7 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Nov 02|[Rock Is a Lady's Modesty - Blu-ray](https://alltheanime.com/products/rock-is-a-ladys-modesty-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 09|[Ya Boy Kongming! Collector's Edition Blu-ray](https://alltheanime.com/products/ya-boy-kongming-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 10|[Sakon the Ventriloquist – SD Blu-ray](https://mediaocd.com/product/sakon-the-ventriloquist-sd-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
+|Nov 16|[Girls und Panzer das Finale - Part 4 + OVA Blu-ray](https://alltheanime.com/products/girls-und-panzer-das-finale-part-4-ova-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 23|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 30|[Sailor Moon R - Season 2 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-2-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 
