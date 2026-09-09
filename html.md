@@ -50,10 +50,8 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Sep 15|[Treasure Island: The 1978 Animated Series Collection](https://mediaocd.com/product/treasure-island-the-1978-animated-series-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Sep 21|[DEVILMAN Crybaby - Blu-ray](https://alltheanime.com/products/devilman-crybaby-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Sep 21|[HAIKYU!! TO THE TOP Season 4 - Blu-ray](https://alltheanime.com/products/haikyu-to-the-top-season-4-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Sep 22|[The Dangers in My Heart (Season 2) Limited Edition SteelBook](https://www.sentaifilmworks.com/products/816726028071-the-dangers-in-my-heart-season-2-steelbook-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Sep 28|[Black Butler - Emerald Witch Arc (Season 4) - Blu-ray](https://alltheanime.com/products/black-butler-emerald-witch-arc-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Sep 28|[Her Blue Sky - Blu-ray](https://alltheanime.com/products/her-blue-sky-blu-ray "Anime Limited")|1|Anime Limited|Multi|
-|Sep 28|[Her Blue Sky 4K UHD + Blu-ray + DVD Collector's Edition](https://alltheanime.com/products/her-blue-sky-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
+|Sep 28|[Her Blue Sky - Blu-ray](https://alltheanime.com/products/her-blue-sky-dvd "Anime Limited")|1|Anime Limited|DVD|
 |Sep 29|[Revue Starlight: Curtain Call (TV + Movie) Collection](https://www.sentaifilmworks.com/products/816726029078-revue-starlight-curtain-call-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 
 ### October
@@ -65,12 +63,15 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Oct 11|[Vampire Princess Miyu OVA – Blu-ray – EXCLUSIVE!](https://mediaocd.com/product/vampire-princess-miyu-ova-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Oct 12|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-1-collectors-edition "MVM")|1|MVM|Blu-ray|
 |Oct 12|[From Bureaucrat to Villainess: Dad's Been Reincarnated! - Blu-ray](https://alltheanime.com/products/from-bureaucrat-to-villainess-dads-been-reincarnated-blu-ray "MVM")|1|MVM|Blu-ray|
+|Oct 12|[Her Blue Sky - Blu-ray](https://alltheanime.com/products/her-blue-sky-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
+|Oct 12|[Her Blue Sky 4K UHD + Blu-ray + DVD Collector's Edition](https://alltheanime.com/products/her-blue-sky-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Oct 12|[Suzume - 4K UHD Blu-ray Steelbook](https://alltheanime.com/products/suzume-4k-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 13|[Master of Martial Hearts](https://mediaocd.com/product/master-of-martial-hearts-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Oct 13|[Non Non Biyori Complete Series](https://www.sentaifilmworks.com/products/816726028477-non-non-biyori-complete-series-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 19|[Clevatess Season 1 - Blu-ray](https://alltheanime.com/products/clevatess-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 19|[I'm Living with an Otaku NEET Kunoichi!? - Blu-ray](https://alltheanime.com/products/im-living-with-an-otaku-neet-kunoichi-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 19|[Kaiju No. 8: Mission Recon - Limited Edition SteelBook](https://alltheanime.com/products/kaiju-no-8-mission-recon-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Oct 19|[Perfect Blue - Blu-ray](https://alltheanime.com/products/goodbye-don-glees-blu-ray-copy "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 20|[Is It Wrong to Try to Pick Up Girls in a Dungeon? (Season 1 + OVA) Collection](https://www.sentaifilmworks.com/products/816726029177-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Oct 20|[Reincarnated as a Dragon Hatchling (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029870-reincarnated-as-a-dragon-hatchling-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 26|[2.5 Dimensional Seduction Collector's Edition Blu-ray](https://alltheanime.com/products/2-5-dimensional-seduction-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
@@ -100,6 +101,7 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Nov 10|[Sakon the Ventriloquist – SD Blu-ray](https://mediaocd.com/product/sakon-the-ventriloquist-sd-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Nov 16|[Girls und Panzer das Finale - Part 4 + OVA Blu-ray](https://alltheanime.com/products/girls-und-panzer-das-finale-part-4-ova-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 23|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
+|Nov 24|[The Dangers in My Heart (Season 2) Limited Edition SteelBook](https://www.sentaifilmworks.com/products/816726028071-the-dangers-in-my-heart-season-2-steelbook-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Nov 30|[Sailor Moon R - Season 2 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-2-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 
 ### December
