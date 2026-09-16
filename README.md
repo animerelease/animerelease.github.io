@@ -60,7 +60,6 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Oct 12|[Her Blue Sky - Blu-ray](https://alltheanime.com/products/her-blue-sky-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 12|[Her Blue Sky 4K UHD + Blu-ray + DVD Collector's Edition](https://alltheanime.com/products/her-blue-sky-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Oct 12|[Suzume - 4K UHD Blu-ray Steelbook](https://alltheanime.com/products/suzume-4k-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Oct 13|[Master of Martial Hearts](https://mediaocd.com/product/master-of-martial-hearts-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Oct 13|[Non Non Biyori Complete Series](https://www.sentaifilmworks.com/products/816726028477-non-non-biyori-complete-series-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 19|[Clevatess Season 1 - Blu-ray](https://alltheanime.com/products/clevatess-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 19|[I'm Living with an Otaku NEET Kunoichi!? - Blu-ray](https://alltheanime.com/products/im-living-with-an-otaku-neet-kunoichi-blu-ray "MVM")|1|MVM|Blu-ray|
