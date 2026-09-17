@@ -67,6 +67,18 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Oct 12|[Her Blue Sky 4K UHD + Blu-ray + DVD Collector's Edition](https://alltheanime.com/products/her-blue-sky-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Oct 12|[Suzume - 4K UHD Blu-ray Steelbook](https://alltheanime.com/products/suzume-4k-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 13|[Non Non Biyori Complete Series](https://www.sentaifilmworks.com/products/816726028477-non-non-biyori-complete-series-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Oct 15|[Blue Seed: The Complete Series – SD Blu-ray](https://mediaocd.com/product/blue-seed-the-complete-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 15|[Cyber City Oedo 808](https://mediaocd.com/product/cyber-city-oedo-808-steelbook-blu-ray/ "Discotek")|2|Discotek|Blu-ray|
+|Oct 15|[DNA²: Complete Collection](https://mediaocd.com/product/dna%c2%b2-complete-collection-dvd/ "Discotek")|1|Discotek|DVD|
+|Oct 15|[Dual! Parallel Trouble Adventure – SD Blu-ray](https://mediaocd.com/product/dual-parallel-trouble-adventure-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 15|[Lady Georgie: The Complete Series – SD Blu-ray](https://mediaocd.com/product/lady-georgie-the-complete-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 15|[Neo Heroic Fantasia: Arion – Collector's Edition](https://mediaocd.com/product/neo-heroic-fantasia-arion-collectors-edition-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 15|[Project A-ko 2: The Plot of the Daitokuji Financial Group](https://mediaocd.com/product/project-a-ko-2-the-plot-of-the-daitokuji-financial-group-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 15|[Project A-ko 3: Cinderella Rhapsody](https://mediaocd.com/product/project-a-ko-3-cinderella-rhapsody-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 15|[Project A-ko 4: Final](https://mediaocd.com/product/project-a-ko-4-final-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 15|[Project A-ko: Perfect Edition](https://mediaocd.com/product/project-a-ko-perfect-edition-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 15|[Saint Tail: The Complete TV Series](https://mediaocd.com/product/saint-tail-the-complete-tv-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 15|[Thermae Romae: The Complete Series](https://mediaocd.com/product/thermae-romae-the-complete-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 19|[Clevatess Season 1 - Blu-ray](https://alltheanime.com/products/clevatess-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 19|[I'm Living with an Otaku NEET Kunoichi!? - Blu-ray](https://alltheanime.com/products/im-living-with-an-otaku-neet-kunoichi-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 19|[Kaiju No. 8: Mission Recon - Limited Edition SteelBook](https://alltheanime.com/products/kaiju-no-8-mission-recon-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
@@ -80,7 +92,7 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Oct 26|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 27|[Big O: The Complete Paradigm](https://mediaocd.com/product/big-o-the-complete-paradigm-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
-|Oct 27|[Digimon: Season 4 Frontier (English Language Version)](https://mediaocd.com/product/digimon-season-4-frontier-english-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Oct 27|[Digimon Frontier: Season 4 (English Language Version)](https://mediaocd.com/product/digimon-season-4-frontier-english-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Lupin the 3rd Part II: The Red Jacket Adventures – SD Blu-ray](https://mediaocd.com/product/lupin-the-3rd-part-ii-the-red-jacket-adventures-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[My Gift Lvl 9999 Unlimited Gacha (Season 1) Collection](https://www.sentaifilmworks.com/products/816726026275-my-gift-lvl-9999-unlimited-gacha-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Oct 27|[Outlanders](https://mediaocd.com/product/outlanders-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
@@ -100,7 +112,14 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Nov 10|[Sakon the Ventriloquist – SD Blu-ray](https://mediaocd.com/product/sakon-the-ventriloquist-sd-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Nov 16|[Girls und Panzer das Finale - Part 4 + OVA Blu-ray](https://alltheanime.com/products/girls-und-panzer-das-finale-part-4-ova-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 23|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
+|Nov 24|[Argento Soma – SD Blu-ray](https://mediaocd.com/product/argento-soma-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Nov 24|[Digimon Frontier: Season 4 (Japanese Language Version)](https://mediaocd.com/product/digimon-season-4-frontier-japanese-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Nov 24|[Digimon Tamers: Season 3 (Japanese Language Version)](https://mediaocd.com/product/digimon-tamers-season-3-collection-japanese-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Nov 24|[Lupin the IIIrd: Zenigata and the Two Lupins](https://mediaocd.com/product/lupin-the-iiird-zenigata-and-the-two-lupins-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Nov 24|[Paniponi Dash: Complete Series – SD Blu-ray](https://mediaocd.com/product/paniponi-dash-complete-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Nov 24|[Patlabor: TV Series Collection](https://mediaocd.com/product/patlabor-tv-series-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Nov 24|[The Dangers in My Heart (Season 2) Limited Edition SteelBook](https://www.sentaifilmworks.com/products/816726028071-the-dangers-in-my-heart-season-2-steelbook-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Nov 30|[Gurren Lagann the Movie - 4K UHD Blu-ray](https://alltheanime.com/products/gurren-lagann-the-movie-4k-uhd "Anime Limited")|1|Anime Limited|4K UHD|
 |Nov 30|[Sailor Moon R - Season 2 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-2-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 
 ### December
