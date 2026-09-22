@@ -55,6 +55,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Oct 05|[My Isekai Life - Blu-ray](https://alltheanime.com/products/my-isekai-life-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 06|[Devil Survivor 2: The Animation Complete Collection](https://www.sentaifilmworks.com/products/816726029276-devil-survivor-2-the-animation-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Oct 11|[Vampire Princess Miyu OVA – Blu-ray – EXCLUSIVE!](https://mediaocd.com/product/vampire-princess-miyu-ova-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
+|Oct 12|[Arcane: League of Legends Season 2 - 4K UHD Blu-ray](https://alltheanime.com/products/arcane-league-of-legends-season-2-4k-uhd-blu-ray "Anime Limited")|1|Anime Limited|4K UHD|
 |Oct 12|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-1-collectors-edition "MVM")|1|MVM|Blu-ray|
 |Oct 12|[From Bureaucrat to Villainess: Dad's Been Reincarnated! - Blu-ray](https://alltheanime.com/products/from-bureaucrat-to-villainess-dads-been-reincarnated-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 12|[Her Blue Sky - Blu-ray](https://alltheanime.com/products/her-blue-sky-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
@@ -103,7 +104,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Nov 02|[Godzilla Minus One 4K UHD + Blu-ray Steelbook](https://alltheanime.com/products/godzilla-minus-one-4k-uhd-blu-ray-steelbook-2026 "Anime Limited")|1|Anime Limited|4K UHD|
 |Nov 02|[Rock Is a Lady's Modesty - Blu-ray](https://alltheanime.com/products/rock-is-a-ladys-modesty-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 09|[Ya Boy Kongming! Collector's Edition Blu-ray](https://alltheanime.com/products/ya-boy-kongming-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
-|Nov 10|[Call of the Night (Season 2) Collection](https://www.sentaifilmworks.com/products/816726025872-call-of-the-night-season-2-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Nov 10|[Call of the Night (Season 2) Collection](https://www.sentaifilmworks.com/products/816726025872-call-of-the-night-season-2-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Nov 10|[Sakon the Ventriloquist – SD Blu-ray](https://mediaocd.com/product/sakon-the-ventriloquist-sd-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Nov 16|[Girls und Panzer das Finale - Part 4 + OVA Blu-ray](https://alltheanime.com/products/girls-und-panzer-das-finale-part-4-ova-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 17|[Kids on the Slope Complete Collection](https://www.sentaifilmworks.com/products/816726029375-kids-on-the-slope-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
@@ -111,7 +112,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Nov 24|[Argento Soma – SD Blu-ray](https://mediaocd.com/product/argento-soma-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Nov 24|[Digimon Frontier: Season 4 (Japanese Language Version)](https://mediaocd.com/product/digimon-season-4-frontier-japanese-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Nov 24|[Digimon Tamers: Season 3 (Japanese Language Version)](https://mediaocd.com/product/digimon-tamers-season-3-collection-japanese-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
-|Nov 24|[Dusk Beyond the End of the World Complete Collection](https://www.sentaifilmworks.com/products/816726026077-dusk-beyond-the-end-of-the-world-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Nov 24|[Dusk Beyond the End of the World Complete Collection](https://www.sentaifilmworks.com/products/816726026077-dusk-beyond-the-end-of-the-world-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Nov 24|[Lupin the IIIrd: Zenigata and the Two Lupins](https://mediaocd.com/product/lupin-the-iiird-zenigata-and-the-two-lupins-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Nov 24|[Paniponi Dash: Complete Series – SD Blu-ray](https://mediaocd.com/product/paniponi-dash-complete-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Nov 24|[Patlabor: TV Series Collection](https://mediaocd.com/product/patlabor-tv-series-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
