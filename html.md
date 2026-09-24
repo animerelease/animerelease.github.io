@@ -141,6 +141,8 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
+|Jan 12|[AD Police – 4K UHD + Blu-ray](https://mediaocd.com/product/ad-police-4k-uhd-blu-ray/ "AnimEigo")|1|AnimEigo|4K UHD|
+|Jan 12|[AD Police: Mega Fan Bundle](https://mediaocd.com/product/ad-police-mega-fan-bundle/ "AnimEigo")|1|AnimEigo|4K UHD|
 |Jan 25|[Sailor Moon Super S - Season 4 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-super-s-season-4-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 
 ### February
