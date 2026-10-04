@@ -42,7 +42,6 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Oct 15|[DNA²: Complete Collection](https://mediaocd.com/product/dna%c2%b2-complete-collection-dvd/ "Discotek")|1|Discotek|DVD|
 |Oct 15|[Dual! Parallel Trouble Adventure – SD Blu-ray](https://mediaocd.com/product/dual-parallel-trouble-adventure-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 15|[Lady Georgie: The Complete Series – SD Blu-ray](https://mediaocd.com/product/lady-georgie-the-complete-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
-|Oct 15|[Neo Heroic Fantasia: Arion – Collector's Edition](https://mediaocd.com/product/neo-heroic-fantasia-arion-collectors-edition-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 15|[Project A-ko 2: The Plot of the Daitokuji Financial Group](https://mediaocd.com/product/project-a-ko-2-the-plot-of-the-daitokuji-financial-group-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 15|[Project A-ko 3: Cinderella Rhapsody](https://mediaocd.com/product/project-a-ko-3-cinderella-rhapsody-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 15|[Project A-ko 4: Final](https://mediaocd.com/product/project-a-ko-4-final-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
@@ -85,7 +84,13 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Nov 16|[Girls und Panzer das Finale - Part 4 + OVA Blu-ray](https://alltheanime.com/products/girls-und-panzer-das-finale-part-4-ova-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 17|[Kids on the Slope Complete Collection](https://www.sentaifilmworks.com/products/816726029375-kids-on-the-slope-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Nov 23|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
+|Nov 24|[Argento Soma – SD Blu-ray](https://mediaocd.com/product/argento-soma-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Nov 24|[Digimon Frontier: Season 4 (Japanese Language Version)](https://mediaocd.com/product/digimon-season-4-frontier-japanese-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Nov 24|[Digimon Tamers: Season 3 (Japanese Language Version)](https://mediaocd.com/product/digimon-tamers-season-3-collection-japanese-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Nov 24|[Dusk Beyond the End of the World Complete Collection](https://www.sentaifilmworks.com/products/816726026077-dusk-beyond-the-end-of-the-world-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
+|Nov 24|[Lupin the IIIrd: Zenigata and the Two Lupins](https://mediaocd.com/product/lupin-the-iiird-zenigata-and-the-two-lupins-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Nov 24|[Paniponi Dash: Complete Series – SD Blu-ray](https://mediaocd.com/product/paniponi-dash-complete-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+|Nov 24|[Patlabor: TV Series Collection](https://mediaocd.com/product/patlabor-tv-series-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Nov 24|[Samurai Girls / Samurai Bride Complete Series](https://www.sentaifilmworks.com/products/816726029474-samurai-girls-samurai-bride-complete-series-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Nov 24|[The Dangers in My Heart (Season 2) Limited Edition SteelBook](https://www.sentaifilmworks.com/products/816726028071-the-dangers-in-my-heart-season-2-steelbook-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Nov 30|[Gurren Lagann the Movie - 4K UHD Blu-ray](https://alltheanime.com/products/gurren-lagann-the-movie-4k-uhd "Anime Limited")|1|Anime Limited|4K UHD|
@@ -122,6 +127,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |May 01|[Go Nagai World](https://mediaocd.com/product/go-nagai-world-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |May 01|[Magical Girl Lyrical Nanoha: Reflection](https://mediaocd.com/product/magical-girl-lyrical-nanoha-reflection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |May 01|[Mazinger Z: TV Series](https://mediaocd.com/product/18585/ "Discotek")|2|Discotek|Blu-ray|
+|May 01|[Neo Heroic Fantasia: Arion – Collector's Edition](https://mediaocd.com/product/neo-heroic-fantasia-arion-collectors-edition-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |May 15|[Urusei Yatsura: Always My Darling](https://mediaocd.com/product/urusei-yatsura-always-my-darling-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 
 
