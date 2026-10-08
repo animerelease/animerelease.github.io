@@ -10,26 +10,6 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 
 ## [2026](/year/2026)
 
-### September
-
-|Date|Title|Vol|Distributor|Format|
-|:---:|---|:---:|---|:---:|
-|Sep 01|[Is It Wrong to Try to Pick Up Girls in a Dungeon? Arrow of the Orion](https://www.sentaifilmworks.com/products/816726028873-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-arrow-of-the-orion-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Sep 07|[Engage Kiss - Collector's Edition Blu-ray](https://alltheanime.com/products/engage-kiss-collectors-edition "MVM")|1|MVM|Blu-ray|
-|Sep 07|[Miss Kobayashi's Dragon Maid: A Lonely Dragon Wants To Be Loved - Blu-ray](https://alltheanime.com/products/miss-kobayashis-dragon-maid-a-lonely-dragon-wants-to-be-loved-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Sep 07|[SAKAMOTO DAYS Season 1 Part 1 - Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-1-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Sep 07|[SAKAMOTO DAYS Season 1 Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-1-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
-|Sep 14|[Management of a Novice Alchemist - Blu-ray](https://alltheanime.com/products/management-of-a-novice-alchemist-blu-ray "MVM")|1|MVM|Blu-ray|
-|Sep 14|[My Hero Academia: Vigilantes Season 1 - Blu-ray](https://alltheanime.com/products/my-hero-academia-vigilantes-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Sep 14|[Paprika - 4K UHD + Blu-ray Steelbook](https://alltheanime.com/products/paprika-steelbook "Sony Pictures")|1|Sony Pictures|4K UHD|
-|Sep 14|[Reborn as a Vending Machine, I Now Wander the Dungeon Season 2 - Blu-ray](https://alltheanime.com/products/reborn-as-a-vending-machine-i-now-wander-the-dungeon-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Sep 15|[SHIROBAKO Complete TV Series](https://www.sentaifilmworks.com/products/816726028972-shirobako-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Sep 21|[DEVILMAN Crybaby - Blu-ray](https://alltheanime.com/products/devilman-crybaby-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Sep 21|[HAIKYU!! TO THE TOP Season 4 - Blu-ray](https://alltheanime.com/products/haikyu-to-the-top-season-4-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Sep 28|[Black Butler - Emerald Witch Arc (Season 4) - Blu-ray](https://alltheanime.com/products/black-butler-emerald-witch-arc-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Sep 28|[Her Blue Sky - Blu-ray](https://alltheanime.com/products/her-blue-sky-dvd "Anime Limited")|1|Anime Limited|DVD|
-|Sep 29|[Revue Starlight: Curtain Call (TV + Movie) Collection](https://www.sentaifilmworks.com/products/816726029078-revue-starlight-curtain-call-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-
 ### October
 
 |Date|Title|Vol|Distributor|Format|
@@ -90,6 +70,8 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Nov 16|[Girls und Panzer das Finale - Part 4 + OVA Blu-ray](https://alltheanime.com/products/girls-und-panzer-das-finale-part-4-ova-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 17|[Kids on the Slope Complete Collection](https://www.sentaifilmworks.com/products/816726029375-kids-on-the-slope-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Nov 23|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
+|Nov 23|[SAKAMOTO DAYS Season 1 Part 2 - Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
+|Nov 23|[SAKAMOTO DAYS Season 1 Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Nov 24|[Argento Soma – SD Blu-ray](https://mediaocd.com/product/argento-soma-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Nov 24|[Digimon Frontier: Season 4 (Japanese Language Version)](https://mediaocd.com/product/digimon-season-4-frontier-japanese-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Nov 24|[Digimon Tamers: Season 3 (Japanese Language Version)](https://mediaocd.com/product/digimon-tamers-season-3-collection-japanese-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
