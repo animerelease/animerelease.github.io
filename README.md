@@ -33,6 +33,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Oct 19|[Kaiju No. 8: Mission Recon - Limited Edition SteelBook](https://alltheanime.com/products/kaiju-no-8-mission-recon-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 19|[Perfect Blue - Blu-ray](https://alltheanime.com/products/goodbye-don-glees-blu-ray-copy "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 20|[Is It Wrong to Try to Pick Up Girls in a Dungeon? (Season 1 + OVA) Collection](https://www.sentaifilmworks.com/products/816726029177-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
+|Oct 20|[Puella Magi Madoka Magica: The Movie Trilogy](https://mediaocd.com/product/puella-magi-madoka-magica-the-movie-trilogy-4k-uhd/ "Aniplex of America")|1|Aniplex of America|4K UHD|
 |Oct 20|[Reincarnated as a Dragon Hatchling (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029870-reincarnated-as-a-dragon-hatchling-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Oct 26|[2.5 Dimensional Seduction Collector's Edition Blu-ray](https://alltheanime.com/products/2-5-dimensional-seduction-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 26|[Arcane: League of Legends Season 2 - 4K UHD Blu-ray](https://alltheanime.com/products/arcane-league-of-legends-season-2-4k-uhd-blu-ray "Anime Limited")|1|Anime Limited|4K UHD|
@@ -41,14 +42,11 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Oct 26|[The Rising of the Shield Hero Season 4 - Blu-ray](https://alltheanime.com/products/the-rising-of-the-shield-hero-season-4-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 26|[Undead Unluck Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Oct 27|[Big O: The Complete Paradigm](https://mediaocd.com/product/big-o-the-complete-paradigm-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Digimon Frontier: Season 4 (English Language Version)](https://mediaocd.com/product/digimon-season-4-frontier-english-language-version-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Lupin the 3rd Part II: The Red Jacket Adventures – SD Blu-ray](https://mediaocd.com/product/lupin-the-3rd-part-ii-the-red-jacket-adventures-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[My Gift Lvl 9999 Unlimited Gacha (Season 1) Collection](https://www.sentaifilmworks.com/products/816726026275-my-gift-lvl-9999-unlimited-gacha-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
-|Oct 27|[Outlanders](https://mediaocd.com/product/outlanders-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Penguindrum](https://mediaocd.com/product/penguindrum-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Sword of the Demon Hunter (Season 1) Collection](https://www.sentaifilmworks.com/products/816726025773-sword-of-the-demon-hunter-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
-|Oct 27|[Toradora!: The Complete Series](https://mediaocd.com/product/toradora-the-complete-series-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 27|[Yaiba: Samurai Legend – Season 1 Limited Edition](https://mediaocd.com/product/yaiba-samurai-legend-season-1-limited-edition-blu-ray/ "VIZ Media")|1|VIZ Media|Blu-ray|
 
 ### November
@@ -58,12 +56,17 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Nov 02|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-2-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 02|[Godzilla Minus One 4K UHD + Blu-ray Steelbook](https://alltheanime.com/products/godzilla-minus-one-4k-uhd-blu-ray-steelbook-2026 "Anime Limited")|1|Anime Limited|4K UHD|
 |Nov 02|[Rock Is a Lady's Modesty - Blu-ray](https://alltheanime.com/products/rock-is-a-ladys-modesty-blu-ray "MVM")|1|MVM|Blu-ray|
+|Nov 09|[Dr. STONE: SCIENCE FUTURE - Season 4 Part 2 - Blu-ray](https://alltheanime.com/products/dr-stone-season-4-part-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Nov 09|[The Apothecary Diaries - Season 1 Steelbook](https://alltheanime.com/products/the-apothecary-diaries-season-1-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Nov 09|[Ya Boy Kongming! Collector's Edition Blu-ray](https://alltheanime.com/products/ya-boy-kongming-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 10|[Call of the Night (Season 2) Collection](https://www.sentaifilmworks.com/products/816726025872-call-of-the-night-season-2-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
-|Nov 10|[Sakon the Ventriloquist – SD Blu-ray](https://mediaocd.com/product/sakon-the-ventriloquist-sd-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Nov 16|[Girls und Panzer das Finale - Part 4 + OVA Blu-ray](https://alltheanime.com/products/girls-und-panzer-das-finale-part-4-ova-blu-ray "MVM")|1|MVM|Blu-ray|
+|Nov 16|[I Was Reincarnated as the 7th Prince So I Can Take My Time Perfecting My Magical Ability Season 2 - Blu-ray](https://alltheanime.com/products/i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Nov 16|[Lord of Mysteries Season 1 - Blu-ray](https://alltheanime.com/products/lord-of-mysteries-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Nov 17|[Kids on the Slope Complete Collection](https://www.sentaifilmworks.com/products/816726029375-kids-on-the-slope-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Nov 23|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
+|Nov 23|[My Hero Academia Complete Season 6 - Blu-ray](https://alltheanime.com/products/my-hero-academia-complete-season-6-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Nov 23|[Overlord - Season 4 Steelbook](https://alltheanime.com/products/overlord-season-4-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Nov 23|[SAKAMOTO DAYS Season 1 Part 2 - Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Nov 23|[SAKAMOTO DAYS Season 1 Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/sakamoto-days-season-1-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Nov 24|[Argento Soma – SD Blu-ray](https://mediaocd.com/product/argento-soma-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
@@ -75,6 +78,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Nov 24|[Patlabor: TV Series Collection](https://mediaocd.com/product/patlabor-tv-series-collection-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Nov 24|[Samurai Girls / Samurai Bride Complete Series](https://www.sentaifilmworks.com/products/816726029474-samurai-girls-samurai-bride-complete-series-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Nov 24|[The Dangers in My Heart (Season 2) Limited Edition SteelBook](https://www.sentaifilmworks.com/products/816726028071-the-dangers-in-my-heart-season-2-steelbook-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Nov 30|[Ghost in the Shell - Steelbook](https://alltheanime.com/products/ghost-in-the-shell-steelbook "Crunchyroll")|2|Crunchyroll|Blu-ray|
 |Nov 30|[Gurren Lagann the Movie - 4K UHD Blu-ray](https://alltheanime.com/products/gurren-lagann-the-movie-4k-uhd "Anime Limited")|1|Anime Limited|4K UHD|
 |Nov 30|[Sailor Moon R - Season 2 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-2-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 
@@ -82,6 +86,8 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
+|Dec 07|[Gungrave Complete Series - Blu-ray](https://alltheanime.com/products/gungrave-complete-series-blu-ray "MVM")|1|MVM|Blu-ray|
+|Dec 14|[Vermeil in Gold - Blu-ray](https://alltheanime.com/products/vermeil-in-gold-blu-ray "MVM")|1|MVM|Blu-ray|
 |Dec 15|[Drucker in the Dugout](https://mediaocd.com/product/drucker-in-the-dugout-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Dec 28|[Sailor Moon S - Season 3 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-3-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 
