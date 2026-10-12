@@ -35,7 +35,6 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Oct 20|[Is It Wrong to Try to Pick Up Girls in a Dungeon? (Season 1 + OVA) Collection](https://www.sentaifilmworks.com/products/816726029177-is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Oct 20|[Puella Magi Madoka Magica: The Movie Trilogy](https://mediaocd.com/product/puella-magi-madoka-magica-the-movie-trilogy-4k-uhd/ "Aniplex of America")|1|Aniplex of America|4K UHD|
 |Oct 20|[Reincarnated as a Dragon Hatchling (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029870-reincarnated-as-a-dragon-hatchling-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Oct 26|[2.5 Dimensional Seduction Collector's Edition Blu-ray](https://alltheanime.com/products/2-5-dimensional-seduction-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 26|[Arcane: League of Legends Season 2 - 4K UHD Blu-ray](https://alltheanime.com/products/arcane-league-of-legends-season-2-4k-uhd-blu-ray "Anime Limited")|1|Anime Limited|4K UHD|
 |Oct 26|[One Piece - Collection 40 - Blu-ray](https://alltheanime.com/products/one-piece-collection-40-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 26|[Sailor Moon - Season 1 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-1-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
@@ -56,6 +55,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Nov 02|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-2-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 02|[Godzilla Minus One 4K UHD + Blu-ray Steelbook](https://alltheanime.com/products/godzilla-minus-one-4k-uhd-blu-ray-steelbook-2026 "Anime Limited")|1|Anime Limited|4K UHD|
 |Nov 02|[Rock Is a Lady's Modesty - Blu-ray](https://alltheanime.com/products/rock-is-a-ladys-modesty-blu-ray "MVM")|1|MVM|Blu-ray|
+|Nov 09|[2.5 Dimensional Seduction Collector's Edition Blu-ray](https://alltheanime.com/products/2-5-dimensional-seduction-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 09|[Dr. STONE: SCIENCE FUTURE - Season 4 Part 2 - Blu-ray](https://alltheanime.com/products/dr-stone-season-4-part-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Nov 09|[The Apothecary Diaries - Season 1 Steelbook](https://alltheanime.com/products/the-apothecary-diaries-season-1-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Nov 09|[Ya Boy Kongming! Collector's Edition Blu-ray](https://alltheanime.com/products/ya-boy-kongming-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
