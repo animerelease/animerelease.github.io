@@ -55,10 +55,10 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Nov 02|[Rock Is a Lady's Modesty - Blu-ray](https://alltheanime.com/products/rock-is-a-ladys-modesty-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 09|[2.5 Dimensional Seduction Collector's Edition Blu-ray](https://alltheanime.com/products/2-5-dimensional-seduction-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 09|[Dr. STONE: SCIENCE FUTURE - Season 4 Part 2 - Blu-ray](https://alltheanime.com/products/dr-stone-season-4-part-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Nov 09|[Genshiken 2: TV Series Season 2 Complete](https://mediaocd.com/product/genshiken-2-tv-series-season-2-complete-blu-ray/ "Media Blasters")|1|Media Blasters|Blu-ray|
 |Nov 09|[The Apothecary Diaries - Season 1 Steelbook](https://alltheanime.com/products/the-apothecary-diaries-season-1-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Nov 09|[Ya Boy Kongming! Collector's Edition Blu-ray](https://alltheanime.com/products/ya-boy-kongming-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 10|[Call of the Night (Season 2) Collection](https://www.sentaifilmworks.com/products/816726025872-call-of-the-night-season-2-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
-|Nov 10|[Sakon the Ventriloquist – SD Blu-ray](https://mediaocd.com/product/sakon-the-ventriloquist-sd-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Nov 16|[Girls und Panzer das Finale - Part 4 + OVA Blu-ray](https://alltheanime.com/products/girls-und-panzer-das-finale-part-4-ova-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 16|[I Was Reincarnated as the 7th Prince So I Can Take My Time Perfecting My Magical Ability Season 2 - Blu-ray](https://alltheanime.com/products/i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Nov 16|[Lord of Mysteries Season 1 - Blu-ray](https://alltheanime.com/products/lord-of-mysteries-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
