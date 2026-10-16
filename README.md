@@ -59,6 +59,7 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Nov 09|[The Apothecary Diaries - Season 1 Steelbook](https://alltheanime.com/products/the-apothecary-diaries-season-1-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Nov 09|[Ya Boy Kongming! Collector's Edition Blu-ray](https://alltheanime.com/products/ya-boy-kongming-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 10|[Call of the Night (Season 2) Collection](https://www.sentaifilmworks.com/products/816726025872-call-of-the-night-season-2-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
+|Nov 10|[Sakon the Ventriloquist – SD Blu-ray](https://mediaocd.com/product/sakon-the-ventriloquist-sd-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Nov 16|[Girls und Panzer das Finale - Part 4 + OVA Blu-ray](https://alltheanime.com/products/girls-und-panzer-das-finale-part-4-ova-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 16|[I Was Reincarnated as the 7th Prince So I Can Take My Time Perfecting My Magical Ability Season 2 - Blu-ray](https://alltheanime.com/products/i-was-reincarnated-as-the-7th-prince-so-i-can-take-my-time-perfecting-my-magical-ability-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Nov 16|[Lord of Mysteries Season 1 - Blu-ray](https://alltheanime.com/products/lord-of-mysteries-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
@@ -86,9 +87,16 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
+|Dec 01|[GATE Complete Collection](https://www.sentaifilmworks.com/products/816726029573-gate-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Dec 07|[Gungrave Complete Series - Blu-ray](https://alltheanime.com/products/gungrave-complete-series-blu-ray "MVM")|1|MVM|Blu-ray|
+|Dec 08|[Hero Without a Class: Who Even Needs Skills?! (Season 1) Collection](https://www.sentaifilmworks.com/products/816726026176-hero-without-a-class-who-even-needs-skills-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Dec 14|[CITY the Animation - Blu-ray](https://alltheanime.com/products/city-the-animation-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
+|Dec 14|[CITY the Animation - Collector's Edition Blu-ray](https://alltheanime.com/products/city-the-animation-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 14|[Vermeil in Gold - Blu-ray](https://alltheanime.com/products/vermeil-in-gold-blu-ray "MVM")|1|MVM|Blu-ray|
 |Dec 15|[Drucker in the Dugout](https://mediaocd.com/product/drucker-in-the-dugout-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
+|Dec 15|[HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029979-hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Dec 15|[No Game, No Life (TV + Movie) Collection](https://www.sentaifilmworks.com/products/816726029672-no-game-no-life-tv-movie-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Dec 22|[Vinland Saga (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029771-vinland-saga-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Dec 28|[Sailor Moon S - Season 3 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-3-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 
 
