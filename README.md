@@ -50,9 +50,13 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
+|Nov 02|[Angel's Egg - 4K UHD + Blu-ray](https://alltheanime.com/products/angels-egg-4k-uhd-blu-ray "Anime Limited")|1|Anime Limited|4K UHD|
+|Nov 02|[Angel's Egg 4K UHD + Blu-ray Collector's Edition](https://alltheanime.com/products/angels-egg-4k-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Nov 02|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-2-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 02|[Godzilla Minus One 4K UHD + Blu-ray Steelbook](https://alltheanime.com/products/godzilla-minus-one-4k-uhd-blu-ray-steelbook-2026 "Anime Limited")|1|Anime Limited|4K UHD|
+|Nov 02|[Labyrinth 4K UHD Blu-ray](https://alltheanime.com/products/labyrinth-4k-uhd-blu-ray "Anime Limited")|1|Anime Limited|4K UHD|
 |Nov 02|[Rock Is a Lady's Modesty - Blu-ray](https://alltheanime.com/products/rock-is-a-ladys-modesty-blu-ray "MVM")|1|MVM|Blu-ray|
+|Nov 02|[The Dark Crystal - 4K UHD Blu-ray](https://alltheanime.com/products/the-dark-crystal-4k-uhd-blu-ray "Anime Limited")|1|Anime Limited|4K UHD|
 |Nov 09|[2.5 Dimensional Seduction Collector's Edition Blu-ray](https://alltheanime.com/products/2-5-dimensional-seduction-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
 |Nov 09|[Dr. STONE: SCIENCE FUTURE - Season 4 Part 2 - Blu-ray](https://alltheanime.com/products/dr-stone-season-4-part-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Nov 09|[Genshiken 2: TV Series Season 2 Complete](https://mediaocd.com/product/genshiken-2-tv-series-season-2-complete-blu-ray/ "Media Blasters")|1|Media Blasters|Blu-ray|
