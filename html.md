@@ -22,7 +22,6 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Oct 12|[Her Blue Sky 4K UHD + Blu-ray + DVD Collector's Edition](https://alltheanime.com/products/her-blue-sky-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Oct 12|[Suzume - 4K UHD Blu-ray Steelbook](https://alltheanime.com/products/suzume-4k-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 13|[Non Non Biyori Complete Series](https://www.sentaifilmworks.com/products/816726028477-non-non-biyori-complete-series-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Oct 15|[Lady Georgie: The Complete Series – SD Blu-ray](https://mediaocd.com/product/lady-georgie-the-complete-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |Oct 19|[Clevatess Season 1 - Blu-ray](https://alltheanime.com/products/clevatess-season-1-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 19|[I'm Living with an Otaku NEET Kunoichi!? - Blu-ray](https://alltheanime.com/products/im-living-with-an-otaku-neet-kunoichi-blu-ray "MVM")|1|MVM|Blu-ray|
 |Oct 19|[Kaiju No. 8: Mission Recon - Limited Edition SteelBook](https://alltheanime.com/products/kaiju-no-8-mission-recon-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
@@ -133,3 +132,9 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |May 01|[Mazinger Z: TV Series](https://mediaocd.com/product/18585/ "Discotek")|2|Discotek|Blu-ray|
 |May 01|[Neo Heroic Fantasia: Arion – Collector's Edition](https://mediaocd.com/product/neo-heroic-fantasia-arion-collectors-edition-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |May 15|[Urusei Yatsura: Always My Darling](https://mediaocd.com/product/urusei-yatsura-always-my-darling-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
+
+### October
+
+|Date|Title|Vol|Distributor|Format|
+|:---:|---|:---:|---|:---:|
+|Oct 15|[Lady Georgie: The Complete Series – SD Blu-ray](https://mediaocd.com/product/lady-georgie-the-complete-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
