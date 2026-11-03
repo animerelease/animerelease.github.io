@@ -25,8 +25,6 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Oct 26|[One Piece - Collection 40 - Blu-ray](https://alltheanime.com/products/one-piece-collection-40-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 26|[Sailor Moon - Season 1 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-season-1-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Oct 26|[The Rising of the Shield Hero Season 4 - Blu-ray](https://alltheanime.com/products/the-rising-of-the-shield-hero-season-4-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
-|Oct 26|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Oct 26|[Undead Unluck Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Oct 27|[My Gift Lvl 9999 Unlimited Gacha (Season 1) Collection](https://www.sentaifilmworks.com/products/816726026275-my-gift-lvl-9999-unlimited-gacha-complete-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 |Oct 27|[Sword of the Demon Hunter (Season 1) Collection](https://www.sentaifilmworks.com/products/816726025773-sword-of-the-demon-hunter-season-1-collection-blu-ray "Sentai Filmworks")|2|Sentai Filmworks|Blu-ray|
 
@@ -93,6 +91,8 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Dec 14|[CITY the Animation - Blu-ray](https://alltheanime.com/products/city-the-animation-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 14|[CITY the Animation - Collector's Edition Blu-ray](https://alltheanime.com/products/city-the-animation-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 14|[Jujutsu Kaisen - Season 1 SteelBook](https://alltheanime.com/products/jujutsu-kaisen-season-1-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Dec 14|[Undead Unluck Part 1 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
+|Dec 14|[Undead Unluck Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 14|[Vermeil in Gold - Blu-ray](https://alltheanime.com/products/vermeil-in-gold-blu-ray "MVM")|1|MVM|Blu-ray|
 |Dec 15|[Drucker in the Dugout](https://mediaocd.com/product/drucker-in-the-dugout-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Dec 15|[HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029979-hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
@@ -110,6 +110,8 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |Jan 12|[AD Police – 4K UHD + Blu-ray](https://mediaocd.com/product/ad-police-4k-uhd-blu-ray/ "AnimEigo")|1|AnimEigo|4K UHD|
 |Jan 12|[AD Police: Mega Fan Bundle](https://mediaocd.com/product/ad-police-mega-fan-bundle/ "AnimEigo")|1|AnimEigo|4K UHD|
 |Jan 25|[Sailor Moon Super S - Season 4 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-super-s-season-4-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Jan 25|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
+|Jan 25|[Undead Unluck Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 
 ### February
 
@@ -126,12 +128,6 @@ Automated release calendar for anime on Blu-ray, DVD & 4K UHD — updated daily 
 |May 01|[Mazinger Z: TV Series](https://mediaocd.com/product/18585/ "Discotek")|2|Discotek|Blu-ray|
 |May 01|[Neo Heroic Fantasia: Arion – Collector's Edition](https://mediaocd.com/product/neo-heroic-fantasia-arion-collectors-edition-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 |May 15|[Urusei Yatsura: Always My Darling](https://mediaocd.com/product/urusei-yatsura-always-my-darling-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
-
-### October
-
-|Date|Title|Vol|Distributor|Format|
-|:---:|---|:---:|---|:---:|
-|Oct 15|[Lady Georgie: The Complete Series – SD Blu-ray](https://mediaocd.com/product/lady-georgie-the-complete-series-sd-blu-ray/ "Discotek")|1|Discotek|Blu-ray|
 
 
 ---
