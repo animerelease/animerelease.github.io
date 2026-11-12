@@ -57,6 +57,7 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Dec 07|[Gungrave Complete Series - Blu-ray](https://alltheanime.com/products/gungrave-complete-series-blu-ray "MVM")|1|MVM|Blu-ray|
 |Dec 07|[Kaiju No. 8 - Season 1 SteelBook](https://alltheanime.com/products/kaiju-no-8-season-1-steelbook "Crunchyroll")|2|Crunchyroll|Blu-ray|
 |Dec 07|[Miss Kobayashi's Dragon Maid - Season 1 SteelBook](https://alltheanime.com/products/miss-kobayashis-dragon-maid-season-1-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Dec 07|[Mobile Suit Gundam SEED Freedom - 4K UHD Blu-ray](https://alltheanime.com/products/mobile-suit-gundam-seed-freedom-4k-uhd-blu-ray "Anime Limited")|1|Anime Limited|4K UHD|
 |Dec 07|[My Neighbour Totoro - Blu-ray](https://alltheanime.com/products/my-neighbour-totoro-blu-ray "Anime Limited")|1|Anime Limited|Multi|
 |Dec 07|[My Neighbour Totoro - Blu-ray + DVD Steelbook](https://alltheanime.com/products/my-neighbour-totoro-blu-ray-dvd-steelbook "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 07|[My Neighbour Totoro DVD + Blu-ray Collector's Edition](https://alltheanime.com/products/my-neighbour-totoro-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
@@ -95,7 +96,9 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Jan 11|[Kizumonogatari -Koyomi Vamp- Blu-ray](https://alltheanime.com/products/kizumonogatari-koyomi-vamp-blu-ray "MVM")|1|MVM|Blu-ray|
 |Jan 12|[AD Police – 4K UHD + Blu-ray](https://mediaocd.com/product/ad-police-4k-uhd-blu-ray/ "AnimEigo")|1|AnimEigo|4K UHD|
 |Jan 12|[AD Police: Mega Fan Bundle](https://mediaocd.com/product/ad-police-mega-fan-bundle/ "AnimEigo")|1|AnimEigo|4K UHD|
+|Jan 18|[Miss Kobayashi's Dragon Maid - Season 2 SteelBook](https://alltheanime.com/products/miss-kobayashis-dragon-maid-season-2-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Jan 18|[Ragna Crimson - Blu-ray](https://alltheanime.com/products/ragna-crimson-blu-ray "MVM")|1|MVM|Blu-ray|
+|Jan 25|[My Dress-up Darling - Season 1 SteelBook](https://alltheanime.com/products/my-dress-up-darling-season-1-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Jan 25|[Sailor Moon Super S - Season 4 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-super-s-season-4-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Jan 25|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Jan 25|[Undead Unluck Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
@@ -105,6 +108,8 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
+|Feb 01|[My Hero Academia Complete Season 7 - Blu-ray](https://alltheanime.com/products/my-hero-academia-complete-season-7-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Feb 08|[Attack on Titan: The Last Attack 4K UHD + Blu-ray SteelBook](https://alltheanime.com/products/attack-on-titan-the-last-attack-4k-uhd-blu-ray-steelbook "Crunchyroll")|1|Crunchyroll|4K UHD|
 |Feb 08|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
 |Feb 22|[Sailor Moon Sailor Stars - Season 5 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-sailor-stars-season-5-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 
