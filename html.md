@@ -14,7 +14,6 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
-|Nov 01|[Sakon the Ventriloquist – SD Blu-ray](https://mediaocd.com/product/sakon-the-ventriloquist-sd-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Nov 02|[Angel's Egg - 4K UHD + Blu-ray](https://alltheanime.com/products/angels-egg-4k-uhd-blu-ray "Anime Limited")|1|Anime Limited|4K UHD|
 |Nov 02|[Angel's Egg 4K UHD + Blu-ray Collector's Edition](https://alltheanime.com/products/angels-egg-4k-collectors-edition "Anime Limited")|1|Anime Limited|4K UHD|
 |Nov 02|[Fate/Grand Order Absolute Demonic Front: Babylonia Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/fate-grand-order-absolute-demonic-front-babylonia-part-2-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
@@ -75,7 +74,6 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Dec 14|[The Apothecary Diaries Season 2 - Blu-ray](https://alltheanime.com/products/apothecary-diaries-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Dec 14|[The Apothecary Diaries Season 2 - Blu-ray Steelbook](https://alltheanime.com/products/the-apothecary-diaries-season-2-blu-ray-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Dec 14|[Vermeil in Gold - Blu-ray](https://alltheanime.com/products/vermeil-in-gold-blu-ray "MVM")|1|MVM|Blu-ray|
-|Dec 15|[Drucker in the Dugout](https://mediaocd.com/product/drucker-in-the-dugout-blu-ray/ "AnimEigo")|1|AnimEigo|Blu-ray|
 |Dec 15|[HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029979-hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Dec 21|[Undead Unluck Part 1 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 21|[Undead Unluck Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
@@ -108,6 +106,8 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
 |Feb 01|[My Hero Academia Complete Season 7 - Blu-ray](https://alltheanime.com/products/my-hero-academia-complete-season-7-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
+|Feb 01|[Princess Connect! Re:Dive - Blu-ray](https://alltheanime.com/products/princess-connect-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
+|Feb 01|[Princess Connect! Re:Dive - Collector's Edition Blu-ray](https://alltheanime.com/products/princess-connect-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
 |Feb 08|[Attack on Titan: The Last Attack 4K UHD + Blu-ray SteelBook](https://alltheanime.com/products/attack-on-titan-the-last-attack-4k-uhd-blu-ray-steelbook "Crunchyroll")|1|Crunchyroll|4K UHD|
 |Feb 08|[I Parry Everything Collector's Edition Blu-ray](https://alltheanime.com/products/i-parry-everything-blu-ray "MVM")|1|MVM|Blu-ray|
 |Feb 22|[Sailor Moon Sailor Stars - Season 5 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-sailor-stars-season-5-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
