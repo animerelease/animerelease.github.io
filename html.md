@@ -88,6 +88,7 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 
 |Date|Title|Vol|Distributor|Format|
 |:---:|---|:---:|---|:---:|
+|Jan 05|[Chained Soldier (Season 2) Complete Collection](https://www.sentaifilmworks.com/products/816726020389-chained-soldier-season-2-complete-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Jan 11|[A Gatherer's Adventure in Isekai - Blu-ray](https://alltheanime.com/products/a-gatherers-adventure-in-isekai-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Jan 11|[Kizumonogatari -Koyomi Vamp- Blu-ray](https://alltheanime.com/products/kizumonogatari-koyomi-vamp-blu-ray "MVM")|1|MVM|Blu-ray|
 |Jan 12|[AD Police – 4K UHD + Blu-ray](https://mediaocd.com/product/ad-police-4k-uhd-blu-ray/ "AnimEigo")|1|AnimEigo|4K UHD|
@@ -95,11 +96,13 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Jan 12|[No Game, No Life (TV + Movie) Collection](https://www.sentaifilmworks.com/products/816726029672-no-game-no-life-tv-movie-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Jan 18|[Miss Kobayashi's Dragon Maid - Season 2 SteelBook](https://alltheanime.com/products/miss-kobayashis-dragon-maid-season-2-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Jan 18|[Ragna Crimson - Blu-ray](https://alltheanime.com/products/ragna-crimson-blu-ray "MVM")|1|MVM|Blu-ray|
+|Jan 19|[Chihayafuru (Season 1) Collection](https://www.sentaifilmworks.com/products/816726020587-chihayafuru-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 |Jan 25|[My Dress-up Darling - Season 1 SteelBook](https://alltheanime.com/products/my-dress-up-darling-season-1-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Jan 25|[Sailor Moon Super S - Season 4 Limited Edition Steelbook](https://alltheanime.com/products/sailor-moon-super-s-season-4-limited-edition-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Jan 25|[Undead Unluck Part 2 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Jan 25|[Undead Unluck Part 2 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-2-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Jan 25|[Ya Boy Kongming! Collector's Edition Blu-ray](https://alltheanime.com/products/ya-boy-kongming-collectors-edition-blu-ray "MVM")|1|MVM|Blu-ray|
+|Jan 26|[Petals of Reincarnation (Season 1) Collection](https://www.sentaifilmworks.com/products/816726020488-petals-of-reincarnation-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
 
 ### February
 
