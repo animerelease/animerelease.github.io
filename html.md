@@ -67,14 +67,14 @@ description: "Full release calendar for anime on Blu-ray, DVD & 4K UHD — every
 |Dec 07|[Spirited Away - Blu-ray + DVD Steelbook](https://alltheanime.com/products/spirited-away-blu-ray-dvd-steelbook "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 07|[Spirited Away DVD + Blu-ray Collector's Edition](https://alltheanime.com/products/spirited-away-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 08|[Hero Without a Class: Who Even Needs Skills?! (Season 1) Collection](https://www.sentaifilmworks.com/products/816726026176-hero-without-a-class-who-even-needs-skills-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
-|Dec 14|[CITY the Animation - Blu-ray](https://alltheanime.com/products/city-the-animation-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
-|Dec 14|[CITY the Animation - Collector's Edition Blu-ray](https://alltheanime.com/products/city-the-animation-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 14|[Jujustu Kaisen: Hidden Inventory / Premature Death: The Movie - Blu-ray](https://alltheanime.com/products/jujustu-kaisen-hidden-inventory-premature-death-movie-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Dec 14|[Jujutsu Kaisen - Season 1 SteelBook](https://alltheanime.com/products/jujutsu-kaisen-season-1-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Dec 14|[The Apothecary Diaries Season 2 - Blu-ray](https://alltheanime.com/products/apothecary-diaries-season-2-blu-ray "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Dec 14|[The Apothecary Diaries Season 2 - Blu-ray Steelbook](https://alltheanime.com/products/the-apothecary-diaries-season-2-blu-ray-steelbook "Crunchyroll")|1|Crunchyroll|Blu-ray|
 |Dec 14|[Vermeil in Gold - Blu-ray](https://alltheanime.com/products/vermeil-in-gold-blu-ray "MVM")|1|MVM|Blu-ray|
 |Dec 15|[HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing (Season 1) Collection](https://www.sentaifilmworks.com/products/816726029979-hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing-season-1-collection-blu-ray "Sentai Filmworks")|1|Sentai Filmworks|Blu-ray|
+|Dec 21|[CITY the Animation - Blu-ray](https://alltheanime.com/products/city-the-animation-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
+|Dec 21|[CITY the Animation - Collector's Edition Blu-ray](https://alltheanime.com/products/city-the-animation-collectors-edition-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 21|[Undead Unluck Part 1 - Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-blu-ray "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 21|[Undead Unluck Part 1 - Collector's Edition Blu-ray](https://alltheanime.com/products/undead-unluck-part-1-collectors-edition "Anime Limited")|1|Anime Limited|Blu-ray|
 |Dec 22|[Kaguya-sama: Love Is War -Stairway to Adulthood- Complete Set](https://mediaocd.com/product/kaguya-sama-love-is-war-stairway-to-adulthood-complete-set-blu-ray/ "Aniplex of America")|1|Aniplex of America|Blu-ray|
